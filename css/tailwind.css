@@ -1,0 +1,28 @@
+@import url(./firstslider.css);
+@import url(./settings.css);
+@import url(./secondslider.css);
+@import url(./mobilemenu.css);
+/* @tailwind base; */
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .noto {
+      @apply font-[noto];
+    }
+    .hoversett {
+      @apply transition-all duration-200 ease-in
+    }
+    .submenu{
+      @apply px-[8px] box-border h-full font-[noto] font-bold leading-[56px] text-[#c5c6ca] text-[16px] hover:text-white hover:bg-2dark cursor-pointer hoversett
+    }
+    .open{
+      @apply hoversett w-[16px] h-[16px] fill-[#85868a] group-hover:fill-white
+    }
+    .resanim{
+      @apply transition-all duration-[500ms]
+    }
+    .card{
+      @apply px-[24px] pt-[24px] group-hover:pt-[20px] group-hover:mb-[74px] box-border hoversett flex flex-col flex-nowrap gap-[8px] mb-[70px]
+    }
+  }

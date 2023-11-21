@@ -1,0 +1,12 @@
+body > div.swiper-pagination2.flex.justify-center.font-\[objectsans\].swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal > span{
+    width: auto !important;
+    height: 40px !important;
+    border-radius: unset !important;
+    background: unset !important;
+}
+body > div.swiper-pagination2.flex.justify-center.gap-\[40px\].font-\[objectsans\].swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal > span.swiper-pagination-bullet.swiper-pagination-bullet-active{
+    border-bottom: 5px solid #007aff !important;
+}
+.mySwiper2{
+margin-top: 1px !important;
+}

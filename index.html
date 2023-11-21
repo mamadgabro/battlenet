@@ -1,0 +1,1490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Battle.net</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./swiper/swiper-bundle.min.css">
+</head>
+<body class="bg-0dark text-white">
+    <!--start header-->
+        <!--start upside-->
+        <div class="upside box-border desktop:w-10/12 laptop:w-[97%] tablet:w-[97%] desktop:flex laptop:flex tablet:flex moblie:hidden h-[72px] justify-between mx-auto resanim">
+            <div class="navleft w-[200px] h-full flex justify-center items-end cursor-pointer">
+                <svg class="h-[56px] w-full fill-white" id="#slogo" viewBox="0 0 196 32"></svg>
+            </div>
+            <div class="navright h-[h-full] flex justify-center items-end">
+                <div class="navlink gap-[7px] px-[15px] cursor-pointer rounded-[5px] group hoversett hover:bg-1dark h-[48px] flex justify-center items-center">
+                    <svg class="w-[24px] h-[24px] fill-[#85868a] hoversett group-hover:fill-white" id="#download"></svg>
+                    <div class="font-[objectsans]">Download Battle.net</div>
+                </div>
+                <div class="navlink gap-[7px] px-[15px] cursor-pointer rounded-[5px] group hoversett hover:bg-1dark h-[48px] flex justify-center items-center">
+                    <svg class="w-[24px] h-[24px] fill-[#85868a] hoversett group-hover:fill-white" id="#support"></svg>
+                    <div class="font-[objectsans]">Support</div>
+                </div>
+                <div class="navlink noto gap-[7px] px-[15px] cursor-pointer rounded-[5px] group hoversett hover:bg-1dark h-[48px] flex justify-center items-center dropdown dropdown-hover">
+                    <svg class="w-[24px] h-[24px] fill-[#85868a] hoversett group-hover:fill-white" id="#account"></svg>
+                    <div class="font-[objectsans]">Account</div>
+                    <svg class="w-[12px] h-[12px] fill-[#85868a] hoversett group-hover:fill-white" id="#open" viewBox="0 0 24 24"></svg>
+                    <ul tabindex="0" class="dropdown-content z-[5] menu p-2 shadow bg-0dark rounded-[5px] w-80 absolute border-solid border-zinc-700 border-[1px] desktop:right-[-55%] laptop:right-0 tablet:right-0 top-[49px]">
+                        <li class="w-[270px] h-[48px] rounded-[5px] bg-[#0074e0] hover:bg-[#47A6FF] mx-auto my-[20px] text-center leading-[48px] text-[16px]">Log in</li>
+                        <li class="hover:bg-1dark flex flex-row gap-[10px] p-[10px] rounded-[5px] group">
+                            <img class="w-[24px] h-[24px] p-0" src="./images/acc-1.svg" alt="">
+                            <div class="p-0 flex flex-col gap-0">
+                                <p class="text-[14px] text-left text-white mr-auto">Account Settings</p>
+                            </div>
+                        </li>
+                          <li class="hover:bg-1dark flex flex-row gap-[10px] p-[10px] rounded-[5px] group">
+                            <img class="w-[24px] h-[24px] p-0" src="./images/acc-2.svg" alt="">
+                            <div class="p-0 flex flex-col gap-0">
+                                <p class="text-[14px] text-left text-white mr-auto">Wish List</p>
+                            </div>
+                        </li>
+                        <li class="hover:bg-1dark flex flex-row gap-[10px] p-[10px] rounded-[5px] group">
+                            <img class="w-[24px] h-[24px] p-0" src="./images/acc-3.svg" alt="">
+                            <div class="p-0 flex flex-col gap-0">
+                                <p class="text-[14px] text-left text-white mr-auto">Redeem Code</p>
+                            </div>
+                        </li>
+                          <li class="hover:bg-1dark flex flex-row gap-[10px] p-[10px] rounded-[5px] group">
+                            <img class="w-[24px] h-[24px] p-0" src="./images/acc-4.svg" alt="">
+                            <div class="p-0 flex flex-col gap-0">
+                                <p class="text-[14px] text-left text-white mr-auto">Change BattleTag</p>
+                            </div>
+                        </li>
+                        <li class="bg-1dark flex flex-row gap-[10px] p-[10px] items-center rounded-[5px] justify-center group">
+                            <img class="w-[24px] h-[24px] p-0" src="./images/acc-5.svg" alt="">
+                            <div class="p-0 flex flex-col gap-0">
+                                <p class="text-[14px] text-left text-white mr-auto">Create Account</p>
+                            </div>
+                        </li>
+                      </ul>
+                </div>
+            </div>
+        </div>
+        <!--end upside-->
+        <!--start downside-->
+        <div class="maindownside sticky top-0 z-[3] bg-0dark">
+            <div class="downside sticky top-0 z-[3] desktop:w-10/12 laptop:w-[97%] tablet:w-[97%] desktop:flex laptop:flex tablet:flex moblie:hidden h-[88px] justify-center items-center mx-auto resanim py-[16px] box-border gap-[10px]">
+                <!--subnav 1-->
+                    <div class="subnav desktop:w-full tablet:w-full bg-1dark h-[56px] rounded-[5px] flex">
+                        <div class="submenu rounded-tl-[5px] rounded-bl-[5px] flex group items-center gap-[5px]">
+                            <div class="dropdown dropdown-hover">
+                                <label tabindex="0" class="btn m-1 p-0">Warcraft</label>
+                                <ul tabindex="0" class="dropdown-content z-[1] menu p-2 shadow bg-0dark rounded-[5px] w-64 absolute border-solid border-zinc-700 border-[1px] left-[-10px]">
+                                  <li class="hover:bg-1dark flex flex-row gap-[10px] p-[10px] rounded-[5px] group">
+                                    <img class="w-[32px] h-[32px] p-0" src="./images/wow.svg" alt="">
+                                    <div class="p-0 flex flex-col gap-0">
+                                        <p class="text-[14px] text-left text-white mr-auto">World Of Warcraft</p>
+                                        <p class="text-[12px] text-empty mr-auto">Massively Multiplayer RPG</p>
+                                    </div>
+                                </li>
+                                  <li class="hover:bg-1dark flex flex-row gap-[10px] p-[10px] rounded-[5px] group">
+                                    <img class="w-[32px] h-[32px] p-0" src="./images/wowc.svg" alt="">
+                                    <div class="p-0 flex flex-col gap-0">
+                                        <p class="text-[14px] text-left text-white mr-auto">World of Warcraft Classic</p>
+                                        <p class="text-[12px] text-empty mr-auto">Massively Multiplayer RPG</p>
+                                    </div>
+                                </li>
+                                  <li class="hover:bg-1dark flex flex-row gap-[10px] p-[10px] rounded-[5px] group">
+                                    <img class="w-[32px] h-[32px] p-0" src="./images/wrumble.svg" alt="">
+                                    <div class="p-0 flex flex-col gap-0">
+                                        <p class="text-[14px] text-left text-white mr-auto">Warcraft Rumble</p>
+                                        <p class="text-[12px] text-empty mr-auto">Real-time Strategy</p>
+                                    </div>
+                                </li>
+                                  <li class="hover:bg-1dark flex flex-row gap-[10px] p-[10px] rounded-[5px] group">
+                                    <img class="w-[32px] h-[32px] p-0" src="./images/warcraft3.svg" alt="">
+                                    <div class="p-0 flex flex-col gap-0">
+                                        <p class="text-[14px] text-left text-white mr-auto">Warcraft III</p>
+                                        <p class="text-[12px] text-empty mr-auto">Real-time Strategy</p>
+                                    </div>
+                                </li>
+                                  <li class="hover:bg-1dark flex flex-row gap-[10px] p-[10px] rounded-[5px] group">
+                                    <img class="w-[32px] h-[32px] p-0" src="./images/hs.svg" alt="">
+                                    <div class="p-0 flex flex-col gap-0">
+                                        <p class="text-[14px] text-left text-white mr-auto">Hearthstone</p>
+                                        <p class="text-[12px] text-empty mr-auto">Strategy Card Game</p>
+                                    </div>
+                                </li>
+                                
+                                </ul>
+                              </div>
+                            <svg class="open" id="#open1" viewBox="0 0 24 24" ></svg>
+                        </div>
+                        <div class="submenu flex group items-center gap-[5px]">
+                            <div class="dropdown dropdown-hover">
+                                <label tabindex="0" class="btn m-1 p-0">Call of Duty</label>
+                                <ul tabindex="0" class="dropdown-content z-[1] menu p-2 shadow bg-0dark rounded-[5px] w-64 absolute border-solid border-zinc-700 border-[1px] left-[-10px]">
+                                  <li class="hover:bg-1dark flex flex-row gap-[10px] p-[10px] rounded-[5px] group">
+                                    <img class="w-[32px] h-[32px] p-0" src="./images/mw3.svg" alt="">
+                                    <div class="p-0 flex flex-col gap-0">
+                                        <p class="text-[14px] text-left text-white mr-auto"> Modern Warfare III</p>
+                                        <p class="text-[12px] text-empty mr-auto">Action Shooter</p>
+                                    </div>
+                                </li>
+                                  <li class="hover:bg-1dark flex flex-row gap-[10px] p-[10px] rounded-[5px] group">
+                                    <img class="w-[32px] h-[32px] p-0" src="./images/warzone.svg" alt="">
+                                    <div class="p-0 flex flex-col gap-0">
+                                        <p class="text-[14px] text-left text-white mr-auto">Warzone</p>
+                                        <p class="text-[12px] text-empty mr-auto">Free-To-Play Action Shooter</p>
+                                    </div>
+                                </li>
+                                  <li class="hover:bg-1dark flex flex-row gap-[10px] p-[10px] rounded-[5px] group">
+                                    <img class="w-[32px] h-[32px] p-0" src="./images/mw2.svg" alt="">
+                                    <div class="p-0 flex flex-col gap-0">
+                                        <p class="text-[14px] text-left text-white mr-auto">Modern Warfare II</p>
+                                        <p class="text-[12px] text-empty mr-auto">Action Shooter</p>
+                                    </div>
+                                </li>
+                                  <li class="hover:bg-1dark flex flex-row gap-[10px] p-[10px] rounded-[5px] group">
+                                    <img class="w-[32px] h-[32px] p-0" src="./images/vanguard.svg" alt="">
+                                    <div class="p-0 flex flex-col gap-0">
+                                        <p class="text-[14px] text-left text-white mr-auto">Vanguard</p>
+                                        <p class="text-[12px] text-empty mr-auto">Action Shooter</p>
+                                    </div>
+                                </li>
+                                  <li class="hover:bg-1dark flex flex-row gap-[10px] p-[10px] rounded-[5px] group">
+                                    <img class="w-[32px] h-[32px] p-0" src="./images/ops.svg" alt="">
+                                    <div class="p-0 flex flex-col gap-0">
+                                        <p class="text-[14px] text-left text-white mr-auto">Black Ops Cold War</p>
+                                        <p class="text-[12px] text-empty mr-auto">Action Shooter</p>
+                                    </div>
+                                </li>
+                                  <li class="hover:bg-1dark flex flex-row gap-[10px] p-[10px] rounded-[5px] group">
+                                    <img class="w-[32px] h-[32px] p-0" src="./images/mw.svg" alt="">
+                                    <div class="p-0 flex flex-col gap-0">
+                                        <p class="text-[14px] text-left text-white mr-auto">Modern Warfare</p>
+                                        <p class="text-[12px] text-empty mr-auto">Action Shooter</p>
+                                    </div>
+                                </li>
+                                  <li class="hover:bg-1dark flex flex-row gap-[10px] p-[10px] rounded-[5px] group">
+                                    <img class="w-[32px] h-[32px] p-0" src="./images/mw2.svg" alt="">
+                                    <div class="p-0 flex flex-col gap-0">
+                                        <p class="text-[14px] text-left text-white mr-auto">Modern Warfare 2</p>
+                                        <p class="text-[12px] text-empty mr-auto">Action Shooter</p>
+                                    </div>
+                                </li>
+                                  <li class="hover:bg-1dark flex flex-row gap-[10px] p-[10px] rounded-[5px] group">
+                                    <img class="w-[32px] h-[32px] p-0" src="./images/blackops.svg" alt="">
+                                    <div class="p-0 flex flex-col gap-0">
+                                        <p class="text-[14px] text-left text-white mr-auto">Black Ops 4</p>
+                                        <p class="text-[12px] text-empty mr-auto">Action Shooter</p>
+                                    </div>
+                                </li>
+                                
+                                </ul>
+                              </div>
+                            <svg class="open" id="#open2" viewBox="0 0 24 24" ></svg>
+                        </div>
+                        <div class="submenu submenu flex group items-center gap-[5px]">
+                            <div class="dropdown dropdown-hover">
+                                <label tabindex="0" class="btn m-1 p-0"> Diablo </label>
+                                <ul tabindex="0" class="dropdown-content z-[1] menu p-2 shadow bg-0dark rounded-[5px] w-64 absolute border-solid border-zinc-700 border-[1px] left-[-10px]">
+                                  <li class="hover:bg-1dark flex flex-row gap-[10px] p-[10px] rounded-[5px] group">
+                                    <img class="w-[32px] h-[32px] p-0" src="./images/diablo4.svg" alt="">
+                                    <div class="p-0 flex flex-col gap-0">
+                                        <p class="text-[14px] text-left text-white mr-auto">Diablo IV</p>
+                                        <p class="text-[12px] text-empty mr-auto">Action RPG</p>
+                                    </div>
+                                </li>
+                                  <li class="hover:bg-1dark flex flex-row gap-[10px] p-[10px] rounded-[5px] group">
+                                    <img class="w-[32px] h-[32px] p-0" src="./images/diablo1.svg" alt="">
+                                    <div class="p-0 flex flex-col gap-0">
+                                        <p class="text-[14px] text-left text-white mr-auto">Diablo Immortal</p>
+                                        <p class="text-[12px] text-empty mr-auto">Action RPG</p>
+                                    </div>
+                                </li>
+                                  <li class="hover:bg-1dark flex flex-row gap-[10px] p-[10px] rounded-[5px] group">
+                                    <img class="w-[32px] h-[32px] p-0" src="./images/diablo3.svg" alt="">
+                                    <div class="p-0 flex flex-col gap-0">
+                                        <p class="text-[14px] text-left text-white mr-auto">Diablo III</p>
+                                        <p class="text-[12px] text-empty mr-auto">Action RPG</p>
+                                    </div>
+                                </li>
+                                  <li class="hover:bg-1dark flex flex-row gap-[10px] p-[10px] rounded-[5px] group">
+                                    <img class="w-[32px] h-[32px] p-0" src="./images/diablo2.svg" alt="">
+                                    <div class="p-0 flex flex-col gap-0">
+                                        <p class="text-[14px] text-left text-white mr-auto">Diablo II: Resurrected</p>
+                                        <p class="text-[12px] text-empty mr-auto">Action RPG</p>
+                                    </div>
+                                </li>
+                                
+                                </ul>
+                              </div>
+                            <svg class="open" id="#open3" viewBox="0 0 24 24" ></svg>
+                        </div>
+                        <div class="submenu submenu flex group items-center gap-[5px]">
+                            <div class="dropdown dropdown-hover">
+                                <label tabindex="0" class="btn m-1 p-0"> Overwatch </label>
+                                <ul tabindex="0" class="dropdown-content z-[1] menu p-2 shadow bg-0dark rounded-[5px] w-64 absolute border-solid border-zinc-700 border-[1px] left-[-10px]">
+                                  <li class="hover:bg-1dark flex flex-row gap-[10px] p-[10px] rounded-[5px] group">
+                                    <img class="w-[32px] h-[32px] p-0" src="./images/overwatch.svg" alt="">
+                                    <div class="p-0 flex flex-col gap-0">
+                                        <p class="text-[14px] text-left text-white mr-auto">Overwatch 2</p>
+                                        <p class="text-[12px] text-empty mr-auto">Team-Based Action Game</p>
+                                    </div>
+                                </li>
+                                </ul>
+                              </div>
+                            <svg class="open" id="#open4" viewBox="0 0 24 24" ></svg>
+                        </div>
+                        <div class="submenu submenu flex group items-center gap-[5px]">
+                            <div class="dropdown dropdown-hover">
+                                <label tabindex="0" class="btn m-1 p-0">  StarCraft  </label>
+                                <ul tabindex="0" class="dropdown-content z-[1] menu p-2 shadow bg-0dark rounded-[5px] w-64 absolute border-solid border-zinc-700 border-[1px] left-[-10px]">
+                                  <li class="hover:bg-1dark flex flex-row gap-[10px] p-[10px] rounded-[5px] group">
+                                    <img class="w-[32px] h-[32px] p-0" src="./images/sf2.svg" alt="">
+                                    <div class="p-0 flex flex-col gap-0">
+                                        <p class="text-[14px] text-left text-white mr-auto">StarCraft II</p>
+                                        <p class="text-[12px] text-empty mr-auto">Real-time Strategy</p>
+                                    </div>
+                                </li>
+                                  <li class="hover:bg-1dark flex flex-row gap-[10px] p-[10px] rounded-[5px] group">
+                                    <img class="w-[32px] h-[32px] p-0" src="./images/sf.svg" alt="">
+                                    <div class="p-0 flex flex-col gap-0">
+                                        <p class="text-[14px] text-left text-white mr-auto">StarCraft</p>
+                                        <p class="text-[12px] text-empty mr-auto">Real-time Strategy</p>
+                                    </div>
+                                </li>
+                                </ul>
+                              </div>
+                            <svg class="open" id="#open5" viewBox="0 0 24 24" ></svg>
+                        </div>
+                        <div class="submenu submenu flex group items-center gap-[5px]">
+                            <div class="dropdown dropdown-hover">
+                                <label tabindex="0" class="btn m-1 p-0">  More  </label>
+                                <ul tabindex="0" class="dropdown-content z-[1] menu p-2 shadow bg-0dark rounded-[5px] w-64 absolute border-solid border-zinc-700 border-[1px] left-[-10px]">
+                                  <li class="hover:bg-1dark flex flex-row gap-[10px] p-[10px] rounded-[5px] group">
+                                    <img class="w-[32px] h-[32px] p-0" src="./images/blizzardcol.svg" alt="">
+                                    <div class="p-0 flex flex-col gap-0">
+                                        <p class="text-[14px] text-left text-white mr-auto">BlizzCon Collection</p>
+                                        <p class="text-[12px] text-empty mr-auto">Bundles</p>
+                                    </div>
+                                </li>
+                                  <li class="hover:bg-1dark flex flex-row gap-[10px] p-[10px] rounded-[5px] group">
+                                    <img class="w-[32px] h-[32px] p-0" src="./images/blizzardarcade.svg" alt="">
+                                    <div class="p-0 flex flex-col gap-0">
+                                        <p class="text-[14px] text-left text-white mr-auto">Blizzard Arcade Collection</p>
+                                        <p class="text-[12px] text-empty mr-auto">Bundles</p>
+                                    </div>
+                                </li>
+                                </li>
+                                  <li class="hover:bg-1dark flex flex-row gap-[10px] p-[10px] rounded-[5px] group">
+                                    <img class="w-[32px] h-[32px] p-0" src="./images/crash.svg" alt="">
+                                    <div class="p-0 flex flex-col gap-0">
+                                        <p class="text-[14px] text-left text-white mr-auto">Crash Bandicoot 4</p>
+                                        <p class="text-[12px] text-empty mr-auto">Platformer</p>
+                                    </div>
+                                </li>
+                                </li>
+                                  <li class="hover:bg-1dark flex flex-row gap-[10px] p-[10px] rounded-[5px] group">
+                                    <img class="w-[32px] h-[32px] p-0" src="./images/hos.svg" alt="">
+                                    <div class="p-0 flex flex-col gap-0">
+                                        <p class="text-[14px] text-left text-white mr-auto">Heroes of the Storm</p>
+                                        <p class="text-[12px] text-empty mr-auto">MOBA</p>
+                                    </div>
+                                </li>
+                                </ul>
+                              </div>
+                            <svg class="open" id="#open6" viewBox="0 0 24 24" ></svg>
+                        </div>
+                    </div>
+                    <!--subnav 2-->
+                    <div class="subnav desktop:w-3/12 laptop:w-3/12 tablet:w-[56px] tablet:shrink-0 bg-1dark h-[56px] resanim rounded-[5px] group hover:bg-2dark cursor-pointer desktop:block laptop:block tablet:flex justify-center items-center">
+                        <div class="search flex justify-center items-center px-[10px] box-border gap-[10px]">
+                            <svg class="w-[24px] h-[24px] fill-white" id="#search" viewBox="0 0 24 24"></svg>
+                            <input class="tablet:hidden laptop:inline-block desktop:inline-block noto outline-0 w-full h-[56px] bg-1dark resanim rounded-[5px] bg-transparent border-0 noto text-[14px] text-white placeholder:group-hover:text-white placeholder:hoversett placeholder:text-[14px]" type="text" placeholder="search">
+                        </div>
+                    </div>
+                    <!--subnav 3-->
+                    <div class="subnav noto w-[200px] tablet:shrink-0 laptop:shrink-0 bg-1dark h-[56px] rounded-[5px] flex justify-center items-center gap-[10px] group hover:bg-2dark cursor-pointer hoversett dropdown dropdown-hover">
+                        <div class=" text-empty group-hover:text-white text-[14px]">Battle.net Balance</div>
+                        <svg class="hoversett w-[16px] h-[16px] fill-[#85868a] group-hover:fill-white" id="#open7" viewBox="0 0 24 24"></svg>
+                        <ul tabindex="0" class="dropdown-content z-[1] menu p-2 shadow bg-0dark rounded-[5px] w-64 absolute border-solid border-zinc-700 border-[1px] right-0 top-[51px]">
+                            <li class="hover:bg-1dark flex flex-row gap-[10px] p-[10px] rounded-[5px] group">
+                                <img class="w-[24px] h-[24px] p-0" src="./images/bb-1.svg" alt="">
+                                <div class="p-0 flex flex-col gap-0">
+                                    <p class="text-[14px] text-left text-white mr-auto">Add Balance</p>
+                                </div>
+                            </li>
+                              <li class="hover:bg-1dark flex flex-row gap-[10px] p-[10px] rounded-[5px] group">
+                                <img class="w-[24px] h-[24px] p-0" src="./images/bb-2.svg" alt="">
+                                <div class="p-0 flex flex-col gap-0">
+                                    <p class="text-[14px] text-left text-white mr-auto">Gift Balance</p>
+                                </div>
+                            </li>
+                            <li class="hover:bg-1dark flex flex-row gap-[10px] p-[10px] rounded-[5px] group">
+                                <img class="w-[24px] h-[24px] p-0" src="./images/bb-3.svg" alt="">
+                                <div class="p-0 flex flex-col gap-0">
+                                    <p class="text-[14px] text-left text-white mr-auto">Balance History</p>
+                                </div>
+                            </li>
+                              <li class="hover:bg-1dark flex flex-row gap-[10px] p-[10px] rounded-[5px] group">
+                                <img class="w-[24px] h-[24px] p-0" src="./images/bb-4.svg" alt="">
+                                <div class="p-0 flex flex-col gap-0">
+                                    <p class="text-[14px] text-left text-white mr-auto">Balance Help</p>
+                                </div>
+                            </li>
+                          </ul>
+                    </div>
+            </div>
+        </div>
+        <!--end downside-->
+        <!--start mobile side-->
+        <div class="mobileside bg-0dark sticky top-0 z-[3]">
+            <div class="mobileupside w-[97%] h-[62px] moblie:flex desktop:hidden laptop:hidden tablet:hidden mx-auto justify-between items-center">
+                <div class="w-[40px] h-[40px] flex justify-center items-center hoversett hover:bg-2dark rounded-[5px] cursor-pointer">
+                    <label class="w-full h-full cursor-pointer flex justify-center items-center" for="menu">
+                        <svg class="w-[24px] h-[24px] fill-white" viewBox="0 0 24 24" id="#menu"></svg>
+                    </label>
+                    <input type="checkbox" class="relative hidden peer" id="menu" name="menu">
+                    <div class="mobilemenu absolute bg-[#1A1C23] w-[440px] h-screen top-0 left-[-115%] peer-checked:left-0 resanim overflow-y-auto z-[3]">
+                        <div class="m-[15px] flex items-center">
+                            <div class="w-[40px] h-[40px] flex justify-center items-center hoversett hover:bg-2dark rounded-[5px] cursor-pointer">
+                                <label class="w-[40px] h-[40px] flex justify-center items-center cursor-pointer" for="menu">
+                                    <svg class="w-[24px] h-[24px]" id="#close" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></svg>
+                                </label>
+                                <input type="checkbox" class="relative hidden peer" id="menu" name="menu">
+                            </div>
+                            <div class="ml-[70px]">
+                                <svg class="w-[150px] h-[25px] mt-[5px] fill-white" viewBox="0 0 196 32" id="#slogo3"></svg>
+                            </div>
+                        </div>
+
+                        <!--menu moba-->
+                        <div class="p-[7px] box-border">
+                            <button class="accordion font-[objectsans] rounded-tl-[5px] rounded-tr-[5px]">Warcraft</button>
+                            <div class="panel noto">
+                                <div class="flex flex-row gap-[10px] p-[10px] rounded-[5px] hover:bg-1dark">
+                                    <img class="w-[32px] h-[32px] p-0" src="./images/wow.svg" alt="">
+                                    <div class="p-0 flex flex-col gap-0">
+                                        <p class="text-[14px] text-left text-white mr-auto">World Of Warcraft</p>
+                                        <p class="text-[12px] text-empty mr-auto">Massively Multiplayer RPG</p>
+                                    </div>
+                                </div>
+                                <div class="flex flex-row gap-[10px] p-[10px] rounded-[5px] hover:bg-1dark">
+                                    <img class="w-[32px] h-[32px] p-0" src="./images/wowc.svg" alt="">
+                                    <div class="p-0 flex flex-col gap-0">
+                                        <p class="text-[14px] text-left text-white mr-auto">World of Warcraft Classic</p>
+                                        <p class="text-[12px] text-empty mr-auto">Massively Multiplayer RPG</p>
+                                    </div>
+                                </div>
+                                <div class="flex flex-row gap-[10px] p-[10px] rounded-[5px] hover:bg-1dark">
+                                    <img class="w-[32px] h-[32px] p-0" src="./images/wrumble.svg" alt="">
+                                    <div class="p-0 flex flex-col gap-0">
+                                        <p class="text-[14px] text-left text-white mr-auto">Warcraft Rumble</p>
+                                        <p class="text-[12px] text-empty mr-auto">Real-time Strategy</p>
+                                    </div>
+                                </div>
+                                <div class="flex flex-row gap-[10px] p-[10px] rounded-[5px] hover:bg-1dark">
+                                    <img class="w-[32px] h-[32px] p-0" src="./images/warcraft3.svg" alt="">
+                                    <div class="p-0 flex flex-col gap-0">
+                                        <p class="text-[14px] text-left text-white mr-auto">Warcraft III</p>
+                                        <p class="text-[12px] text-empty mr-auto">Real-time Strategy</p>
+                                    </div>
+                                </div>
+                                <div class="flex flex-row gap-[10px] p-[10px] rounded-[5px] hover:bg-1dark">
+                                    <img class="w-[32px] h-[32px] p-0" src="./images/hs.svg" alt="">
+                                    <div class="p-0 flex flex-col gap-0">
+                                        <p class="text-[14px] text-left text-white mr-auto">Hearthstone</p>
+                                        <p class="text-[12px] text-empty mr-auto">Strategy Card Game</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <button class="accordion font-[objectsans]">Call Of Duty</button>
+                            <div class="panel noto">
+                                <div class="flex flex-row gap-[10px] p-[10px] rounded-[5px] hover:bg-1dark">
+                                    <img class="w-[32px] h-[32px] p-0" src="./images/mw3.svg" alt="">
+                                    <div class="p-0 flex flex-col gap-0">
+                                        <p class="text-[14px] text-left text-white mr-auto"> Modern Warfare III</p>
+                                        <p class="text-[12px] text-empty mr-auto">Action Shooter</p>
+                                    </div>
+                                </div>
+                                <div class="flex flex-row gap-[10px] p-[10px] rounded-[5px] hover:bg-1dark">
+                                    <img class="w-[32px] h-[32px] p-0" src="./images/warzone.svg" alt="">
+                                    <div class="p-0 flex flex-col gap-0">
+                                        <p class="text-[14px] text-left text-white mr-auto">Warzone</p>
+                                        <p class="text-[12px] text-empty mr-auto">Free-To-Play Action Shooter</p>
+                                    </div>
+                                </div>
+                                <div class="flex flex-row gap-[10px] p-[10px] rounded-[5px] hover:bg-1dark">
+                                    <img class="w-[32px] h-[32px] p-0" src="./images/mwII.svg" alt="">
+                                    <div class="p-0 flex flex-col gap-0">
+                                        <p class="text-[14px] text-left text-white mr-auto">Modern Warfare II</p>
+                                        <p class="text-[12px] text-empty mr-auto">Action Shooter</p>
+                                    </div>
+                                </div>
+                                <div class="flex flex-row gap-[10px] p-[10px] rounded-[5px] hover:bg-1dark">
+                                    <img class="w-[32px] h-[32px] p-0" src="./images/vanguard.svg" alt="">
+                                    <div class="p-0 flex flex-col gap-0">
+                                        <p class="text-[14px] text-left text-white mr-auto">Vanguard</p>
+                                        <p class="text-[12px] text-empty mr-auto">Action Shooter</p>
+                                    </div>
+                                </div>
+                                <div class="flex flex-row gap-[10px] p-[10px] rounded-[5px] hover:bg-1dark">
+                                    <img class="w-[32px] h-[32px] p-0" src="./images/ops.svg" alt="">
+                                    <div class="p-0 flex flex-col gap-0">
+                                        <p class="text-[14px] text-left text-white mr-auto">Black Ops Cold War</p>
+                                        <p class="text-[12px] text-empty mr-auto">Action Shooter</p>
+                                    </div>
+                                </div>
+                                <div class="flex flex-row gap-[10px] p-[10px] rounded-[5px] hover:bg-1dark">
+                                    <img class="w-[32px] h-[32px] p-0" src="./images/mw.svg" alt="">
+                                    <div class="p-0 flex flex-col gap-0">
+                                        <p class="text-[14px] text-left text-white mr-auto">Modern Warfare</p>
+                                        <p class="text-[12px] text-empty mr-auto">Action Shooter</p>
+                                    </div>
+                                </div>
+                                <div class="flex flex-row gap-[10px] p-[10px] rounded-[5px] hover:bg-1dark">
+                                    <img class="w-[32px] h-[32px] p-0" src="./images/mw2.svg" alt="">
+                                    <div class="p-0 flex flex-col gap-0">
+                                        <p class="text-[14px] text-left text-white mr-auto">Modern Warfare 2</p>
+                                        <p class="text-[12px] text-empty mr-auto">Action Shooter</p>
+                                    </div>
+                                </div>
+                                <div class="flex flex-row gap-[10px] p-[10px] rounded-[5px] hover:bg-1dark">
+                                    <img class="w-[32px] h-[32px] p-0" src="./images/blackops.svg" alt="">
+                                    <div class="p-0 flex flex-col gap-0">
+                                        <p class="text-[14px] text-left text-white mr-auto">Black Ops 4</p>
+                                        <p class="text-[12px] text-empty mr-auto">Action Shooter</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <button class="accordion font-[objectsans]">Diablo</button>
+                            <div class="panel noto">
+                                <div class="flex flex-row gap-[10px] p-[10px] rounded-[5px] hover:bg-1dark">
+                                    <img class="w-[32px] h-[32px] p-0" src="./images/diablo4.svg" alt="">
+                                    <div class="p-0 flex flex-col gap-0">
+                                        <p class="text-[14px] text-left text-white mr-auto">Diablo IV</p>
+                                        <p class="text-[12px] text-empty mr-auto">Action RPG</p>
+                                    </div>
+                                </div>
+                                <div class="flex flex-row gap-[10px] p-[10px] rounded-[5px] hover:bg-1dark">
+                                    <img class="w-[32px] h-[32px] p-0" src="./images/diablo1.svg" alt="">
+                                    <div class="p-0 flex flex-col gap-0">
+                                        <p class="text-[14px] text-left text-white mr-auto">Diablo Immortal</p>
+                                        <p class="text-[12px] text-empty mr-auto">Action RPG</p>
+                                    </div>
+                                </div>
+                                <div class="flex flex-row gap-[10px] p-[10px] rounded-[5px] hover:bg-1dark">
+                                    <img class="w-[32px] h-[32px] p-0" src="./images/diablo3.svg" alt="">
+                                    <div class="p-0 flex flex-col gap-0">
+                                        <p class="text-[14px] text-left text-white mr-auto">Diablo III</p>
+                                        <p class="text-[12px] text-empty mr-auto">Action RPG</p>
+                                    </div>
+                                </div>
+                                <div class="flex flex-row gap-[10px] p-[10px] rounded-[5px] hover:bg-1dark">
+                                    <img class="w-[32px] h-[32px] p-0" src="./images/diablo2.svg" alt="">
+                                    <div class="p-0 flex flex-col gap-0">
+                                        <p class="text-[14px] text-left text-white mr-auto">Diablo II: Resurrected</p>
+                                        <p class="text-[12px] text-empty mr-auto">Action RPG</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="accordion font-[objectsans]">Overwatch</button>
+                            <div class="panel noto">
+                                <div class="flex flex-row gap-[10px] p-[10px] rounded-[5px] hover:bg-1dark">
+                                    <img class="w-[32px] h-[32px] p-0" src="./images/overwatch.svg" alt="">
+                                    <div class="p-0 flex flex-col gap-0">
+                                        <p class="text-[14px] text-left text-white mr-auto">Overwatch 2</p>
+                                        <p class="text-[12px] text-empty mr-auto">Team-Based Action Game</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="accordion font-[objectsans]">StarCraft</button>
+                            <div class="panel noto">
+                                <div class="flex flex-row gap-[10px] p-[10px] rounded-[5px] hover:bg-1dark">
+                                    <img class="w-[32px] h-[32px] p-0" src="./images/sf2.svg" alt="">
+                                    <div class="p-0 flex flex-col gap-0">
+                                        <p class="text-[14px] text-left text-white mr-auto">StarCraft II</p>
+                                        <p class="text-[12px] text-empty mr-auto">Real-time Strategy</p>
+                                    </div>
+                                </div>
+                                <div class="flex flex-row gap-[10px] p-[10px] rounded-[5px] hover:bg-1dark">
+                                    <img class="w-[32px] h-[32px] p-0" src="./images/sf.svg" alt="">
+                                    <div class="p-0 flex flex-col gap-0">
+                                        <p class="text-[14px] text-left text-white mr-auto">StarCraft</p>
+                                        <p class="text-[12px] text-empty mr-auto">Real-time Strategy</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="accordion font-[objectsans]"> Other</button>
+                            <div class="panel noto">
+                                <div class="flex flex-row gap-[10px] p-[10px] rounded-[5px] hover:bg-1dark">
+                                    <img class="w-[32px] h-[32px] p-0" src="./images/blizzardcol.svg" alt="">
+                                    <div class="p-0 flex flex-col gap-0">
+                                        <p class="text-[14px] text-left text-white mr-auto">BlizzCon Collection</p>
+                                        <p class="text-[12px] text-empty mr-auto">Bundles</p>
+                                    </div>
+                                </div>
+                                <div class="flex flex-row gap-[10px] p-[10px] rounded-[5px] hover:bg-1dark">
+                                    <img class="w-[32px] h-[32px] p-0" src="./images/blizzardarcade.svg" alt="">
+                                    <div class="p-0 flex flex-col gap-0">
+                                        <p class="text-[14px] text-left text-white mr-auto">Blizzard Arcade Collection</p>
+                                        <p class="text-[12px] text-empty mr-auto">Bundles</p>
+                                    </div>
+                                </div>
+                                <div class="flex flex-row gap-[10px] p-[10px] rounded-[5px] hover:bg-1dark">
+                                    <img class="w-[32px] h-[32px] p-0" src="./images/crash.svg" alt="">
+                                    <div class="p-0 flex flex-col gap-0">
+                                        <p class="text-[14px] text-left text-white mr-auto">Crash Bandicoot 4</p>
+                                        <p class="text-[12px] text-empty mr-auto">Platformer</p>
+                                    </div>
+                                </div>
+                                <div class="flex flex-row gap-[10px] p-[10px] rounded-[5px] hover:bg-1dark">
+                                    <img class="w-[32px] h-[32px] p-0" src="./images/hos.svg" alt="">
+                                    <div class="p-0 flex flex-col gap-0">
+                                        <p class="text-[14px] text-left text-white mr-auto">Heroes of the Storm</p>
+                                        <p class="text-[12px] text-empty mr-auto">MOBA</p>
+                                    </div>
+                                </div>
+                                <div class="flex flex-row gap-[10px] p-[10px] rounded-[5px] hover:bg-1dark">
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="px-[7px] box-border">
+                            <div class=" px-[18px] box-border h-[55px] leading-[55px] font-[objectsans] text-[#38a62f] hover:bg-[#22252A]">BlizzCon Collection</div>
+                        </div>
+                        <div class="px-[7px] box-border">
+                            <button class="accordion font-[objectsans]"> Battle.net Balance </button>
+                            <div class="panel noto">
+                                <div class="flex flex-row gap-[10px] p-[10px] rounded-[5px] hover:bg-1dark">
+                                    <img class="w-[24px] h-[24px] p-0" src="./images/bb-1.svg" alt="">
+                                    <div class="p-0 flex flex-col gap-0">
+                                        <p class="text-[14px] text-left text-white mr-auto">Add Balance</p>
+                                    </div>
+                                </div>
+                                <div class="flex flex-row gap-[10px] p-[10px] rounded-[5px] hover:bg-1dark">
+                                    <img class="w-[24px] h-[24px] p-0" src="./images/bb-2.svg" alt="">
+                                    <div class="p-0 flex flex-col gap-0">
+                                        <p class="text-[14px] text-left text-white mr-auto">Gift Balance</p>
+                                    </div>
+                                </div>
+                                <div class="flex flex-row gap-[10px] p-[10px] rounded-[5px] hover:bg-1dark">
+                                    <img class="w-[24px] h-[24px] p-0" src="./images/bb-3.svg" alt="">
+                                    <div class="p-0 flex flex-col gap-0">
+                                        <p class="text-[14px] text-left text-white mr-auto">Balance History</p>
+                                    </div>
+                                </div>
+                                <div class="flex flex-row gap-[10px] p-[10px] rounded-[5px] hover:bg-1dark">
+                                    <img class="w-[24px] h-[24px] p-0" src="./images/bb-4.svg" alt="">
+                                    <div class="p-0 flex flex-col gap-0">
+                                        <p class="text-[14px] text-left text-white mr-auto">Balance Help</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--menu moba-->
+
+                    </div>
+                </div>
+                <!--mobile downside-->
+                <div class=" flex justify-center items-center cursor-pointer">
+                    <svg class="h-[40px] w-[150px] fill-white" viewBox="0 0 196 32" id="#slogo2"></svg>
+                </div>
+                <div class="w-[40px] h-[40px] flex justify-center items-center  hoversett hover:bg-2dark rounded-[5px] cursor-pointer">
+                    <svg class="w-[24px] h-[24px] fill-white" viewBox="0 0 24 24" id="#account2"></svg>
+                </div>
+            </div>
+            <div class="mobiledownside w-[97%] h-[88px] py-[16px] box-border moblie:flex desktop:hidden laptop:hidden tablet:hidden mx-auto justify-center items-center group">
+                <div class="w-full h-[50] bg-1dark rounded-[5px] px-[15px] box-border flex items-center gap-[10px] group hover:bg-2dark hoversett">
+                    <svg class="w-[24px] h-[24px] fill-white" id="#search1" viewBox="0 0 24 24"></svg>
+                        <input class="noto outline-0 w-full h-[50px] bg-1dark resanim rounded-[5px] bg-transparent border-0 text-[14px] text-white placeholder:group-hover:text-white placeholder:hoversett placeholder:text-[14px]" type="text" placeholder="search">
+                </div>
+            </div>
+        </div>
+        <!--end mobile side-->
+    <!--end header-->
+    <!--start first silder -->
+    <div class="swiper mySwiper1 desktop:w-10/12 laptop:w-[97%] tablet:w-[97%] moblie:w-[97%] desktop:h-[360px] laptop:h-[360px] tablet:h-[360px] moblie:h-[440px] resanim rounded-[5px] mt-[15px] group">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="w-[305px] h-[300px] absolute desktop:left-[10%] laptop:left-[10%] tablet:left-[10%] desktop:bottom-[8%] laptop:bottom-[8%] tablet:bottom-[8%] bigmobile:left-[30%] moblie:left-[20%]  moblie:bottom-[-2%] font-[objectsans] resanim" >
+                <div><img class="w-auto h-[150px]" src="./images/slider-1.avif" alt=""></div>
+                <div> Get up to 40% off on Diablo IV for a limited time </div>
+                <div class="cursor-pointer w-[280px] rounded-[5px] bg-[#0074e0] hover:bg-[#47A6FF] mx-auto my-[20px] text-center leading-[48px] text-[16px]"> Purchase Now </div>
+            </div>
+            <img class="object-top desktop:block laptop:block tablet:block moblie:hidden" src="./images/slide-1.jpeg" alt="">
+            <img class="object-top moblie:block" src="./images/s-slide-1.jpeg" alt=""></div>
+          <div class="swiper-slide">
+            <div class="w-[305px] h-[300px] absolute desktop:left-[10%] laptop:left-[10%] tablet:left-[10%] desktop:bottom-[8%] laptop:bottom-[8%] tablet:bottom-[8%] bigmobile:left-[30%] moblie:left-[20%]  moblie:bottom-[-2%] font-[objectsans] resanim" >
+                <div><img class="w-auto h-[150px]" src="./images/slider-2.avif" alt=""></div>
+                <div> Get up to 40% off on Diablo IV for a limited time </div>
+                <div class="cursor-pointer w-[280px] rounded-[5px] bg-[#0074e0] hover:bg-[#47A6FF] mx-auto my-[20px] text-center leading-[48px] text-[16px]"> Purchase Now </div>
+            </div>
+            <img class="desktop:block laptop:block tablet:block moblie:hidden" src="./images/slide-2.webp" alt="">
+            <img class="moblie:block" src="./images/s-slide-2.jpg" alt="">
+          </div>
+          <div class="swiper-slide">
+            <div class="w-[305px] h-[300px] absolute desktop:left-[10%] laptop:left-[10%] tablet:left-[10%] desktop:bottom-[8%] laptop:bottom-[8%] tablet:bottom-[8%] bigmobile:left-[30%] moblie:left-[20%]  moblie:bottom-[-2%] font-[objectsans] resanim" >
+                <div><img class="w-auto h-[150px]" src="./images/slider-3.avif" alt=""></div>
+                <div> Get up to 40% off on Diablo IV for a limited time </div>
+                <div class="cursor-pointer w-[280px] rounded-[5px] bg-[#0074e0] hover:bg-[#47A6FF] mx-auto my-[20px] text-center leading-[48px] text-[16px]"> Purchase Now </div>
+            </div>
+            <img class="desktop:block laptop:block tablet:block moblie:hidden" src="./images/slide-3.jpeg" alt="">
+            <img class="moblie:block" src="./images/s-slide-3.jpeg" alt="">
+          </div>
+          <!-- <div class="swiper-slide">
+            <div class="w-[305px] h-[300px] absolute desktop:left-[10%] laptop:left-[10%] tablet:left-[10%] desktop:bottom-[8%] laptop:bottom-[8%] tablet:bottom-[8%] bigmobile:left-[30%] moblie:left-[20%]  moblie:bottom-[-2%] font-[objectsans] resanim" >
+                <div><img class="w-full h-[150px]" src="./images/slider-1.avif" alt=""></div>
+                <div> Get up to 40% off on Diablo IV for a limited time </div>
+                <div class="cursor-pointer w-[280px] rounded-[5px] bg-[#0074e0] hover:bg-[#47A6FF] mx-auto my-[20px] text-center leading-[48px] text-[16px]"> Purchase Now </div>
+            </div>
+          </div> -->
+          <div class="swiper-slide">
+            <div class="w-[305px] h-[300px] absolute desktop:left-[10%] laptop:left-[10%] tablet:left-[10%] desktop:bottom-[8%] laptop:bottom-[8%] tablet:bottom-[8%] bigmobile:left-[30%] moblie:left-[20%]  moblie:bottom-[-2%] font-[objectsans] resanim" >
+                <div><img class="w-auto h-[88px] mt-[62px]" src="./images/slider-5.avif" alt=""></div>
+                <div> Get up to 40% off on Diablo IV for a limited time </div>
+                <div class="cursor-pointer w-[280px] rounded-[5px] bg-[#0074e0] hover:bg-[#47A6FF] mx-auto my-[20px] text-center leading-[48px] text-[16px]"> Purchase Now </div>
+            </div>
+            <img class="object-top desktop:block laptop:block tablet:block moblie:hidden" src="./images/slide-5.jpg" alt="">
+            <img class="object-top moblie:block" src="./images/s-slide-5.jpg" alt="">
+          </div>
+          <div class="swiper-slide">
+            <div class="w-[305px] h-[300px] absolute desktop:left-[10%] laptop:left-[10%] tablet:left-[10%] desktop:bottom-[8%] laptop:bottom-[8%] tablet:bottom-[8%] bigmobile:left-[30%] moblie:left-[20%]  moblie:bottom-[-2%] font-[objectsans] resanim" >
+                <div><img class="w-full h-[34px] mt-[116px]" src="./images/slider-6.avif" alt=""></div>
+                <div> Get up to 40% off on Diablo IV for a limited time </div>
+                <div class="cursor-pointer w-[280px] rounded-[5px] bg-[#0074e0] hover:bg-[#47A6FF] mx-auto my-[20px] text-center leading-[48px] text-[16px]"> Purchase Now </div>
+            </div>
+            <img class="desktop:block laptop:block tablet:block moblie:hidden" src="./images/slide-6.jpg" alt="">
+            <img class="moblie:block" src="./images/s-slide-6.jpg" alt="">
+          </div>
+          <div class="swiper-slide">
+            <div class="w-[305px] h-[300px] absolute desktop:left-[10%] laptop:left-[10%] tablet:left-[10%] desktop:bottom-[8%] laptop:bottom-[8%] tablet:bottom-[8%] bigmobile:left-[30%] moblie:left-[20%]  moblie:bottom-[-2%] font-[objectsans] resanim" >
+                <div><img class="w-[305px] h-[150px] mr-[25px]" src="./images/slider-7.avif" alt=""></div>
+                <div> Get up to 40% off on Diablo IV for a limited time </div>
+                <div class="cursor-pointer w-[280px] rounded-[5px] bg-[#0074e0] hover:bg-[#47A6FF] mx-auto my-[20px] text-center leading-[48px] text-[16px]"> Purchase Now </div>
+            </div>
+            <img class="desktop:block laptop:block tablet:block moblie:hidden" src="./images/slide-7.jpg" alt="">
+            <img class="moblie:block" src="./images/s-slide-7.jpg" alt="">
+          </div>
+
+        </div>
+        <div class="swiper-button-next opacity-0 group-hover:opacity-100 hoversett"></div>
+        <div class="swiper-button-prev opacity-0 group-hover:opacity-100 hoversett"></div>
+      </div>
+      <div class="swiper-pagination1 flex justify-center mt-[20px]"></div>
+    <!--end first silder -->
+    <!--start first box-->
+    <div class="boxcard mt-[65px] mb-[25px]">
+        <h2 class="desktop:w-10/12 laptop:w-[97%] tablet:w-[97%] moblie:w-[97%] block mx-auto mt-[50px] mb-[20px] font-[objectsans] resanim">New content for you</h2>
+    <div
+      class="noto desktop:w-10/12 laptop:w-[97%] tablet:w-[97%] moblie:w-[97%] h-auto mx-auto grid desktop:grid-cols-2 laptop:grid-cols-2 bigtablet:grid-cols-2 tablet:grid-cols-2 bigmobile:grid-cols-2 moblie:grid-cols-2 justify-items-center gap-[20px] resanim">
+
+      <div class="bg-1dark hover:bg-2dark hoversett cursor-pointer rounded-[5px] group relative flex flex-col flex-nowrap" >
+        <img class="rounded-tl-[5px] rounded-tr-[5px] w-full h-[165px]object-cover" src="./images/box-11.avif" alt="">
+        <div class="card">
+            <div class="flex gap-[3px] items-center">
+                <img class="w-[28px] h-[24px]" src="./images/wow.svg" alt="">
+                <p class="text-[14px] text-empty font-[objectsans] ">World of Warcraft</p>
+            </div>
+            <dt class="text-[18px] font-[objectsans]">World of Warcraft®: The War Within™</dt>
+            <p class="text-[#ffb400] text-[14px]">Includes the critically-acclaimed Dragonflight expansion.</p>
+            <p class="text-empty text-[12px]">Massively Multiplayer RPG</p>
+        </div>
+        <div class="absolute bottom-[24px] left-[24px]">
+            <span>From EUR 99.99</span>
+        </div>
+        <div class="px-[8px] py-[6px] flex rounded-[4px] bg-[#dd0000] absolute bottom-[94%] left-[8px]">
+            <p class="font-[objectsans] text-[white] text-[12px] leading-[12px]">NEW</p>
+          </div>
+      </div>
+      <div class="bg-1dark hover:bg-2dark hoversett cursor-pointer rounded-[5px] group relative flex flex-col flex-nowrap" >
+        <img class="rounded-tl-[5px] rounded-tr-[5px] w-full h-[165px]object-cover" src="./images/box-5.jpg" alt="">
+        <div class="card">
+            <div class="flex gap-[3px] items-center">
+                <img class="w-[28px] h-[24px]" src="./images/mw3.svg" alt="">
+                <p class="text-[14px] text-empty font-[objectsans] ">Call of Duty: Modern Warfare III</p>
+            </div>
+            <dt class="text-[18px] font-[objectsans]">Call of Duty®: Modern Warfare® III - Vault Edition</dt>
+            <p class="text-[#ffb400] text-[14px]">Purchase Now and get ready for Season 1</p>
+            <p class="text-empty text-[12px]">Action Shooter</p>
+        </div>
+        <div class="absolute bottom-[24px] left-[24px]">
+            <span>EUR 29.99</span>
+        </div>
+        <div class="px-[8px] py-[6px] flex rounded-[4px] bg-[#dd0000] absolute bottom-[94%] left-[8px]">
+            <p class="font-[objectsans] text-[white] text-[12px] leading-[12px]">NEW</p>
+          </div>
+      </div>
+    </div>
+    </div>
+    <!--end first box-->
+
+    <!--start second box-->
+    <div class="boxcard mb-[65px]">
+    <div
+      class="noto desktop:w-10/12 laptop:w-[97%] tablet:w-[97%] moblie:w-[97%] h-auto mx-auto grid desktop:grid-cols-3 laptop:grid-cols-3 bigtablet:grid-cols-3 tablet:grid-cols-3 bigmobile:grid-cols-3 moblie:grid-cols-2 justify-items-center gap-[20px] resanim">
+
+      <div class="bg-1dark hover:bg-2dark hoversett cursor-pointer rounded-[5px] group relative flex flex-col flex-nowrap" >
+        <img class="rounded-tl-[5px] rounded-tr-[5px] w-full h-[165px]object-cover" src="./images/exebox-1.avif" alt="">
+        <div class="card">
+            <div class="flex gap-[3px] items-center">
+                <img class="w-[28px] h-[24px]" src="./images/wrumble.svg" alt="">
+                <p class="text-[14px] text-empty font-[objectsans] ">Warcraft Rumble</p>
+            </div>
+            <dt class="text-[18px] font-[objectsans]">Warcraft Rumble™</dt>
+            <p class="text-[#ffb400] text-[14px]">Available Now</p>
+            <p class="text-empty text-[12px]">Action Strategy</p>
+        </div>
+        <div class="absolute bottom-[24px] left-[24px]">
+            <span>Download Now</span>
+        </div>
+        <div class="px-[8px] py-[6px] flex rounded-[4px] bg-[#dd0000] absolute bottom-[94%] left-[4px]">
+            <p class="font-[objectsans] text-[white] text-[12px] leading-[12px]">NEW</p>
+          </div>
+      </div>
+      <div class="bg-1dark hover:bg-2dark hoversett cursor-pointer rounded-[5px] group relative flex flex-col flex-nowrap" >
+        <img class="rounded-tl-[5px] rounded-tr-[5px] w-full h-[165px]object-cover" src="./images/box-12.avif" alt="">
+        <div class="card">
+            <div class="flex gap-[3px] items-center">
+                <img class="w-[28px] h-[24px]" src="./images/wowc.svg" alt="">
+                <p class="text-[14px] text-empty font-[objectsans] ">World of Warcraft Classic Cataclysm</p>
+            </div>
+            <dt class="text-[18px] font-[objectsans]">Blazing Heroic Pack</dt>
+            <p class="text-[#ffb400] text-[14px]">Get a Ragnaros-inspired mount and Lil’ Wrathion pet in both WoW and WoW Classic progression realms!</p>
+            <p class="text-empty text-[12px]">Game Upgrades</p>
+        </div>
+        <div class="absolute bottom-[24px] left-[24px]">
+            <span>EUR 29.99</span>
+        </div>
+        <div class="px-[8px] py-[6px] flex rounded-[4px] bg-[#dd0000] absolute bottom-[94%] left-[4px]">
+            <p class="font-[objectsans] text-[white] text-[12px] leading-[12px]">NEW</p>
+          </div>
+      </div>
+      <div class="bg-1dark hover:bg-2dark hoversett cursor-pointer rounded-[5px] group relative flex flex-col flex-nowrap" >
+        <img class="rounded-tl-[5px] rounded-tr-[5px] w-full h-[165px]object-cover" src="./images/box-13.avif" alt="">
+        <div class="card">
+            <div class="flex gap-[3px] items-center">
+                <img class="w-[28px] h-[24px]" src="./images/hs.svg" alt="">
+                <p class="text-[14px] text-empty font-[objectsans] ">Hearthstone</p>
+            </div>
+            <dt class="text-[18px] font-[objectsans]">Badlands Catch-Up Packs Bundle</dt>
+            <p class="text-[#ffb400] text-[14px]">Available through December 4, 2023</p>
+            <p class="text-empty text-[12px]">Card Packs</p>
+        </div>
+        <div class="absolute bottom-[24px] left-[24px]">
+            <span>EUR 19.99</span>
+        </div>
+        <div class="px-[8px] py-[6px] flex rounded-[4px] bg-[#dd0000] absolute bottom-[94%] left-[4px]">
+            <p class="font-[objectsans] text-[white] text-[12px] leading-[12px]">NEW</p>
+          </div>
+      </div>
+
+    </div>
+    </div>
+    <!--end second box-->
+
+    <!--start third box-->
+    <div class="boxcard mb-[200px]">
+        <h2 class="desktop:w-10/12 laptop:w-[97%] tablet:w-[97%] moblie:w-[97%] block mx-auto mt-[50px] mb-[20px] font-[objectsans] resanim">Recommended</h2>
+    <div
+      class="noto desktop:w-10/12 laptop:w-[97%] tablet:w-[97%] moblie:w-[97%] h-auto mx-auto grid desktop:grid-cols-5 laptop:grid-cols-5 bigtablet:grid-cols-4 tablet:grid-cols-3 bigmobile:grid-cols-3 moblie:grid-cols-2 justify-items-center gap-[20px] resanim">
+
+      <div class="bg-1dark hover:bg-2dark hoversett cursor-pointer rounded-[5px] group relative flex flex-col flex-nowrap" >
+        <img class="rounded-tl-[5px] rounded-tr-[5px] w-full h-[165px]object-cover" src="./images/box-1.avif" alt="">
+        <div class="card">
+            <div class="flex gap-[3px] items-center">
+                <img class="w-[28px] h-[24px]" src="./images/diablo4.svg" alt="">
+                <p class="text-[14px] text-empty font-[objectsans] ">Diablo IV</p>
+            </div>
+            <dt class="text-[18px] font-[objectsans]">Diablo® IV: Ultimate Edition</dt>
+            <p class="text-[#ffb400] text-[14px]">Season of Blood now live.</p>
+            <p class="text-empty text-[12px]">Action RPG</p>
+        </div>
+        <div class="absolute bottom-[24px] left-[24px]">
+            <span>EUR 99.99</span>
+        </div>
+      </div>
+      <div class="bg-1dark hover:bg-2dark hoversett cursor-pointer rounded-[5px] group relative flex flex-col flex-nowrap" >
+        <img class="rounded-tl-[5px] rounded-tr-[5px] w-full h-[165px]object-cover" src="./images/box-2.avif" alt="">
+        <div class="card">
+            <div class="flex gap-[3px] items-center">
+                <img class="w-[28px] h-[24px]" src="./images/blizzardcol.svg" alt="">
+                <p class="text-[14px] text-empty font-[objectsans] ">BlizzCon</p>
+            </div>
+            <dt class="text-[18px] font-[objectsans]">BlizzCon® Collection</dt>
+            <!-- <p class="text-[#ffb400] text-[14px]"></p> -->
+            <p class="text-empty text-[12px]">In-Game Content</p>
+        </div>
+        <div class="absolute bottom-[24px] left-[24px]">
+            <span>From EUR 29.99</span>
+        </div>
+        <div class="px-[8px] py-[6px] flex rounded-[4px] bg-[#dd0000] absolute bottom-[92%] left-[7px]">
+            <p class="font-[objectsans] text-[white] text-[12px] leading-[12px]">NEW</p>
+          </div>
+      </div>
+      <div class="bg-1dark hover:bg-2dark hoversett cursor-pointer rounded-[5px] group relative flex flex-col flex-nowrap" >
+        <img class="rounded-tl-[5px] rounded-tr-[5px] w-full h-[165px]object-cover" src="./images/box-3.avif" alt="">
+        <div class="card">
+            <div class="flex gap-[3px] items-center">
+                <img class="w-[28px] h-[24px]" src="./images/diablo4.svg" alt="">
+                <p class="text-[14px] text-empty font-[objectsans] ">Diablo IV</p>
+            </div>
+            <dt class="text-[18px] font-[objectsans]">Premium Battle Pass - Season of Blood</dt>
+            <p class="text-[#ffb400] text-[14px]">Get the Premium Battle pass - featuring 90 tiers of rewards!</p>
+            <p class="text-empty text-[12px]">In-Game Content</p>
+        </div>
+        <div class="absolute bottom-[24px] left-[24px]">
+            <span>EUR 19.99</span>
+        </div>
+      </div>
+      <div class="bg-1dark hover:bg-2dark hoversett cursor-pointer rounded-[5px] group relative flex flex-col flex-nowrap" >
+        <img class="rounded-tl-[5px] rounded-tr-[5px] w-full h-[165px]object-cover" src="./images/box-4.avif" alt="">
+        <div class="card">
+            <div class="flex gap-[3px] items-center">
+                <img class="w-[28px] h-[24px]" src="./images/overwatch.svg" alt="">
+                <p class="text-[14px] text-empty font-[objectsans] ">Overwatch 2</p>
+            </div>
+            <dt class="text-[18px] font-[objectsans]">Overwatch® 2 – Ultimate Battle Pass Bundle: Season Seven</dt>
+            <p class="text-[#ffb400] text-[14px]">Get the Overwatch 2: Season Seven Premium Battle Pass + 20 Tiers.</p>
+            <p class="text-empty text-[12px]">Team-Based Action Game</p>
+        </div>
+        <div class="absolute bottom-[24px] left-[24px]">
+            <span>EUR 39.99</span>
+        </div>
+        <div class="px-[8px] py-[6px] flex rounded-[4px] bg-[#dd0000] absolute bottom-[92%] left-[7px]">
+            <p class="font-[objectsans] text-[white] text-[12px] leading-[12px]">NEW</p>
+          </div>
+      </div>
+      <div class=" bg-1dark hover:bg-2dark hoversett cursor-pointer rounded-[5px] group relative flex flex-col flex-nowrap" >
+        <img class="rounded-tl-[5px] rounded-tr-[5px] w-full h-[165px]object-cover" src="./images/box-5.jpg" alt="">
+        <div class="card">
+            <div class="flex gap-[3px] items-center">
+                <img class="w-[28px] h-[24px]" src="./images/mw3.svg" alt="">
+                <p class="text-[14px] text-empty font-[objectsans] ">Call of Duty: Modern Warfare III</p>
+            </div>
+            <dt class="text-[18px] font-[objectsans]">Call of Duty: Modern Warfare III</dt>
+            <p class="text-[#ffb400] text-[14px]">Call of Duty: Modern Warfare III</p>
+            <p class="text-empty text-[12px]">Action Shooter</p>
+        </div>
+        <div class="absolute bottom-[24px] left-[24px]">
+            <span>EUR 99.99</span>
+        </div>
+      </div>
+      <div class=" bg-1dark hover:bg-2dark hoversett cursor-pointer rounded-[5px] group relative flex flex-col flex-nowrap" >
+        <img class="rounded-tl-[5px] rounded-tr-[5px] w-full h-[165px]object-cover" src="./images/box-6.avif" alt="">
+        <div class="card">
+            <div class="flex gap-[3px] items-center">
+                <img class="w-[28px] h-[24px]" src="./images/hs.svg" alt="">
+                <p class="text-[14px] text-empty font-[objectsans] ">Hearthstone</p>
+            </div>
+            <dt class="text-[18px] font-[objectsans]">Hearthstone</dt>
+            <!-- <p class="text-[#ffb400] text-[14px]"></p> -->
+            <p class="text-empty text-[12px]">Card Packs</p>
+        </div>
+        <div class="absolute bottom-[24px] left-[24px]">
+            <span>From EUR 2.99</span>
+        </div>
+      </div>
+      <div class="desktop:block laptop:block bigtablet:block tablet:block bigmobile:hidden moblie:hidden bg-1dark hover:bg-2dark hoversett cursor-pointer rounded-[5px] group relative flex flex-col flex-nowrap" >
+        <img class="rounded-tl-[5px] rounded-tr-[5px] w-full h-[165px]object-cover" src="./images/box-7.avif" alt="">
+        <div class="card">
+            <div class="flex gap-[3px] items-center">
+                <img class="w-[28px] h-[24px]" src="./images/warzone.svg" alt="">
+                <p class="text-[14px] text-empty font-[objectsans] ">Call of Duty: Warzone</p>
+            </div>
+            <dt class="text-[18px] font-[objectsans]">Call of Duty®: Warzone</dt>
+            <p class="text-[#ffb400] text-[14px]">Free for everyone</p>
+            <p class="text-empty text-[12px]">Free-To-Play Action Shooter</p>
+        </div>
+        <div class="absolute bottom-[24px] left-[24px]">
+            <span>Play For Free</span>
+        </div>
+      </div>
+      <div class="desktop:block laptop:block bigtablet:block tablet:block bigmobile:hidden moblie:hidden bg-1dark hover:bg-2dark hoversett cursor-pointer rounded-[5px] group relative flex flex-col flex-nowrap" >
+        <img class="rounded-tl-[5px] rounded-tr-[5px] w-full h-[165px]object-cover" src="./images/box-8.avif" alt="">
+        <div class="card">
+            <div class="flex gap-[3px] items-center">
+                <img class="w-[28px] h-[24px]" src="./images/diablo2.svg" alt="">
+                <p class="text-[14px] text-empty font-[objectsans] ">Diablo II: Resurrected</p>
+            </div>
+            <h3 class="text-[18px] font-[objectsans]">Diablo II: Resurrected™</h3>
+            <p class="text-[#ffb400] text-[14px]">Evil is Resurrected</p>
+            <p class="text-empty text-[12px]">Action RPG</p>
+        </div>
+        <div class="absolute bottom-[24px] left-[24px]">
+            <span>EUR 39.99</span>
+        </div>
+      </div>
+      <div class="desktop:block laptop:block bigtablet:hidden tablet:block bigmobile:hidden moblie:hidden bg-1dark hover:bg-2dark hoversett cursor-pointer rounded-[5px] group relative flex flex-col flex-nowrap" >
+        <img class="rounded-tl-[5px] rounded-tr-[5px] w-full h-[165px]object-cover" src="./images/box-9.avif" alt="">
+        <div class="card">
+            <div class="flex gap-[3px] items-center">
+                <img class="w-[28px] h-[24px]" src="./images/mw2.svg" alt="">
+                <p class="text-[14px] text-empty font-[objectsans] ">Call of Duty: Modern Warfare II</p>
+            </div>
+            <dt class="text-[18px] font-[objectsans]">Call of Duty®: Modern Warfare® II</dt>
+            <p class="text-[#ffb400] text-[14px]">Play Warzone™ for free now.</p>
+            <p class="text-empty text-[12px]">Action Shooter</p>
+        </div>
+        <div class="absolute bottom-[24px] left-[24px]">
+            <span>EUR 69.99</span>
+        </div>
+      </div>
+      <div class=" desktop:block laptop:block bigtablet:hidden tablet:hidden bigmobile:hidden moblie:hidden bg-1dark hover:bg-2dark hoversett cursor-pointer rounded-[5px] group relative flex flex-col flex-nowrap" >
+        <img class="rounded-tl-[5px] rounded-tr-[5px] w-full h-[165px]object-cover" src="./images/box-18.avif" alt="">
+        <div class="card">
+            <div class="flex gap-[3px] items-center">
+                <img class="w-[28px] h-[24px]" src="./images/hs.svg" alt="">
+                <p class="text-[14px] text-empty font-[objectsans] ">Hearthstone</p>
+            </div>
+            <dt class="text-[18px] font-[objectsans]">Showdown in the Badlands Tavern Pass</dt>
+            <p class="text-[#ffb400] text-[14px]">Available through March 11, 2024</p>
+            <p class="text-empty text-[12px]">Card Packs</p>
+        </div>
+        <div class="absolute bottom-[24px] left-[24px]">
+            <span>From EUR 19.99</span>
+        </div>
+        <div class="px-[8px] py-[6px] flex rounded-[4px] bg-[#dd0000] absolute bottom-[92%] left-[7px]">
+            <p class="font-[objectsans] text-[white] text-[12px] leading-[12px]">NEW</p>
+          </div>
+      </div>
+
+    </div>
+    </div>
+    <!--end third box-->
+
+    <!--start second silder -->
+    <div class="text-[24px] font-[objectsans] mx-auto mb-[50px] desktop:w-10/12 laptop:w-[97%] tablet:w-[97%] moblie:w-[97%] resanim">Diablo IV Season Of Blood</div>
+    <div class="swiper-pagination2 flex justify-center gap-[40px] font-[objectsans]"></div>
+    <div class="swiper mySwiper2 desktop:w-10/12 laptop:w-[97%] tablet:w-[97%] moblie:w-[97%] desktop:h-[500px] laptop:h-[500px] tablet:h-[500px] moblie:h-[500px] resanim rounded-[5px] group">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide grid desktop:grid-cols-2 laptop:grid-cols-2 tablet:grid-cols-2 mobile:grid-rows-2">
+            <img src="./images/slide-2-2.jpg" alt="">
+            <div class="bg-[#1A1C23] w-full h-full flex flex-col justify-center gap-[20px] pl-[20px] pr-[50px] px-[80px] box-border">
+                <div class="flex gap-[5px]">
+                    <img class="w=[24px] h-[24px]" src="./images/img-1.svg" alt="">
+                    <p class="font-[objectsans]">Get Diablo IV On Sale Now</p>
+                </div>
+                <div class="flex noto text-[14px] text-empty text-left">Join the fight against the forces of Hell. Get the ultimate action RPG adventure for 25% off</div>
+                <div class="w-[180px] h-[40px] text-[16px] bg-[#35383D] rounded-[5px] leading-[40px] cursor-pointer hover:bg-2dark font-[objectsans]">Purchase Now</div>
+            </div>
+        </div>
+          <div class="swiper-slide grid desktop:grid-cols-2 laptop:grid-cols-2 tablet:grid-cols-2 mobile:grid-rows-2">
+            <img src="./images/slide-2-1.jpg" alt="">
+            <div class="bg-[#1A1C23] w-full h-full flex flex-col justify-center gap-[20px] pl-[20px] pr-[50px] px-[80px] box-border">
+                <div class="flex gap-[5px]">
+                    <img class="w=[24px] h-[24px]" src="./images/img-1.svg" alt="">
+                    <p class="font-[objectsans]">Try Free for a Limited Time</p>
+                </div>
+                <div class="flex noto text-[14px] text-empty text-left">Play Diablo IV, the critically-acclaimed action RPG, for a limited time! Play up to Level 20 in the Free Trial from October 26 to 30.</div>
+                <div class="w-[180px] h-[40px] text-[16px] bg-[#35383D] rounded-[5px] leading-[40px] cursor-pointer hover:bg-2dark font-[objectsans]">Download Now</div>
+            </div>
+        </div>
+          <div class="swiper-slide grid desktop:grid-cols-2 laptop:grid-cols-2 tablet:grid-cols-2 mobile:grid-rows-2">
+            <img src="./images/slide-2-3.jpg" alt="">
+            <div class="bg-[#1A1C23] w-full h-full flex flex-col justify-center gap-[20px] pl-[20px] pr-[50px] px-[80px] box-border">
+                <div class="flex gap-[5px]">
+                    <img class="w=[24px] h-[24px]" src="./images/img-5.svg" alt="">
+                    <p class="font-[objectsans]">Call of Duty®: Modern Warfare® III - Vault Edition</p>
+                </div>
+                <div class="flex noto text-[14px] text-empty text-left">Purchase Now and get ready for Season 1</div>
+                <div class="w-[180px] h-[40px] text-[16px] bg-[#35383D] rounded-[5px] leading-[40px] cursor-pointer hover:bg-2dark font-[objectsans]">Purchase Now</div>
+            </div>
+        </div>
+        </div>
+        <div class="swiper-button-next opacity-0 group-hover:opacity-100 hoversett"></div>
+        <div class="swiper-button-prev opacity-0 group-hover:opacity-100 hoversett"></div>
+      </div>
+    <!--end second silder -->
+
+    <!--start fourth box-->
+    <div class="boxcard mt-[65px] mb-[100px]">
+        <h2 class="desktop:w-10/12 laptop:w-[97%] tablet:w-[97%] moblie:w-[97%] block mx-auto mb-[20px] noto resanim"> Featured </h2>
+    <div
+      class="noto desktop:w-10/12 laptop:w-[97%] tablet:w-[97%] moblie:w-[97%] h-auto mx-auto grid desktop:grid-cols-5 laptop:grid-cols-5 bigtablet:grid-cols-4 tablet:grid-cols-3 bigmobile:grid-cols-3 moblie:grid-cols-2 justify-items-center gap-[20px] resanim">
+
+      <div class="bg-1dark hover:bg-2dark hoversett cursor-pointer rounded-[5px] group relative flex flex-col flex-nowrap" >
+        <img class="rounded-tl-[5px] rounded-tr-[5px] w-full h-[165px]object-cover" src="./images/box-11.avif" alt="">
+        <div class="card">
+            <div class="flex gap-[3px] items-center">
+                <img class="w-[28px] h-[24px]" src="./images/wow.svg" alt="">
+                <p class="text-[14px] text-empty font-[objectsans] ">World of Warcraft</p>
+            </div>
+            <dt class="text-[18px] font-[objectsans]">World of Warcraft®: The War Within™</dt>
+            <p class="text-[#ffb400] text-[14px]">Includes the critically-acclaimed Dragonflight expansion.</p>
+            <p class="text-empty text-[12px]">Massively Multiplayer RPG</p>
+        </div>
+        <div class="absolute bottom-[24px] left-[24px]">
+            <span>From EUR 49.99</span>
+        </div>
+        <div class="px-[8px] py-[6px] flex rounded-[4px] bg-[#dd0000] absolute bottom-[92%] left-[7px]">
+            <p class="font-[objectsans] text-[white] text-[12px] leading-[12px]">NEW</p>
+          </div>
+      </div>
+      <div class="bg-1dark hover:bg-2dark hoversett cursor-pointer rounded-[5px] group relative flex flex-col flex-nowrap" >
+        <img class="rounded-tl-[5px] rounded-tr-[5px] w-full h-[165px]object-cover" src="./images/box-14.avif" alt="">
+        <div class="card">
+            <div class="flex gap-[3px] items-center">
+                <img class="w-[28px] h-[24px]" src="./images/diablo4.svg" alt="">
+                <p class="text-[14px] text-empty font-[objectsans] ">Diablo IV</p>
+            </div>
+            <dt class="text-[18px] font-[objectsans]">Accelerated Battle Pass - Season of Blood</dt>
+            <p class="text-[#ffb400] text-[14px]">Get the Premium Battle pass plus 20 Tier Skips and “Vampire's Repose” emote!</p>
+            <p class="text-empty text-[12px]">In-Game Content</p>
+        </div>
+        <div class="absolute bottom-[24px] left-[24px]">
+            <span>From EUR 29.99</span>
+        </div>
+      </div>
+      <div class="bg-1dark hover:bg-2dark hoversett cursor-pointer rounded-[5px] group relative flex flex-col flex-nowrap" >
+        <img class="rounded-tl-[5px] rounded-tr-[5px] w-full h-[165px]object-cover" src="./images/box-15.avif" alt="">
+        <div class="card">
+            <div class="flex gap-[3px] items-center">
+                <img class="w-[28px] h-[24px]" src="./images/overwatch.svg" alt="">
+                <p class="text-[14px] text-empty font-[objectsans] ">Overwatch 2</p>
+            </div>
+            <dt class="text-[18px] font-[objectsans]">Overwatch® 2 – 10,000 (+5,000 Bonus) Overwatch Coins</dt>
+            <p class="text-[#ffb400] text-[14px]">Limited one-time purchase promotion through December 4!</p>
+            <p class="text-empty text-[12px]">Coins and Tokens</p>
+        </div>
+        <div class="absolute bottom-[24px] left-[24px]">
+            <span>EUR 99.99</span>
+        </div>
+        <div class="px-[8px] py-[6px] flex rounded-[4px] bg-[#6CDB00] absolute bottom-[92%] left-[7px]">
+            <p class="font-[objectsans] text-[#2b2b2b] text-[12px] leading-[12px]">GREAT DEAL</p>
+          </div>
+      </div>
+      <div class="bg-1dark hover:bg-2dark hoversett cursor-pointer rounded-[5px] group relative flex flex-col flex-nowrap" >
+        <img class="rounded-tl-[5px] rounded-tr-[5px] w-full h-[165px]object-cover" src="./images/box-12.avif" alt="">
+        <div class="card">
+            <div class="flex gap-[3px] items-center">
+                <img class="w-[28px] h-[24px]" src="./images/wowc.svg" alt="">
+                <p class="text-[14px] text-empty font-[objectsans] ">World of Warcraft Classic Cataclysm</p>
+            </div>
+            <dt class="text-[18px] font-[objectsans]">Blazing Epic Upgrade</dt>
+            <p class="text-[#ffb400] text-[14px]">Get a Ragnaros-inspired mount and Lil’ Wrathion pet in both WoW and WoW Classic progression realms!</p>
+            <p class="text-empty text-[12px]">Game Upgrades</p>
+        </div>
+        <div class="absolute bottom-[24px] left-[24px]">
+            <span>EUR 79.99</span>
+        </div>
+        <div class="px-[8px] py-[6px] flex rounded-[4px] bg-[#dd0000] absolute bottom-[92%] left-[7px]">
+            <p class="font-[objectsans] text-[white] text-[12px] leading-[12px]">NEW</p>
+          </div>
+      </div>
+      <div class=" bg-1dark hover:bg-2dark hoversett cursor-pointer rounded-[5px] group relative flex flex-col flex-nowrap" >
+        <img class="rounded-tl-[5px] rounded-tr-[5px] w-full h-[165px]object-cover" src="./images/box-17.avif" alt="">
+        <div class="card">
+            <div class="flex gap-[3px] items-center">
+                <img class="w-[28px] h-[24px]" src="./images/wow.svg" alt="">
+                <p class="text-[14px] text-empty font-[objectsans] ">WORLD OF WARCRAFT</p>
+            </div>
+            <dt class="text-[18px] font-[objectsans]">World of Warcraft®: Lil’ Maggz</dt>
+            <p class="text-[#ffb400] text-[14px]">Available for a limited time! Leaves the Shop indefinitely on October 31, 2023.</p>
+            <p class="text-empty text-[12px]">Pets</p>
+        </div>
+        <div class="absolute bottom-[24px] left-[24px]">
+            <span>EUR 10.00</span>
+        </div>
+        <div class="px-[8px] py-[6px] flex rounded-[4px] bg-[#dd0000] absolute bottom-[92%] left-[7px]">
+            <p class="font-[objectsans] text-[white] text-[12px] leading-[12px]">NEW</p>
+          </div>
+      </div>
+      <div class=" bg-1dark hover:bg-2dark hoversett cursor-pointer rounded-[5px] group relative flex flex-col flex-nowrap" >
+        <img class="rounded-tl-[5px] rounded-tr-[5px] w-full h-[165px]object-cover" src="./images/box-6.avif" alt="">
+        <div class="card">
+            <div class="flex gap-[3px] items-center">
+                <img class="w-[28px] h-[24px]" src="./images/hs.svg" alt="">
+                <p class="text-[14px] text-empty font-[objectsans] ">Hearthstone</p>
+            </div>
+            <dt class="text-[18px] font-[objectsans]">Hearthstone</dt>
+            <!-- <p class="text-[#ffb400] text-[14px]"></p> -->
+            <p class="text-empty text-[12px]">Card Packs</p>
+        </div>
+        <div class="absolute bottom-[24px] left-[24px]">
+            <span>From EUR 2.99</span>
+        </div>
+      </div>
+      <div class="desktop:block laptop:block bigtablet:block tablet:block bigmobile:hidden moblie:hidden bg-1dark hover:bg-2dark hoversett cursor-pointer rounded-[5px] group relative flex flex-col flex-nowrap" >
+        <img class="rounded-tl-[5px] rounded-tr-[5px] w-full h-[165px]object-cover" src="./images/box-16.avif" alt="">
+        <div class="card">
+            <div class="flex gap-[3px] items-center">
+                <img class="w-[28px] h-[24px]" src="./images/battle-logo.svg    " alt="">
+                <p class="text-[14px] text-empty font-[objectsans] ">Battle.net Services</p>
+            </div>
+            <dt class="text-[18px] font-[objectsans]">Battle.net® Balance</dt>
+            <!-- <p class="text-[#ffb400] text-[14px]"></p> -->
+            <p class="text-empty text-[12px]">Game Services</p>
+        </div>
+        <div class="absolute bottom-[24px] left-[24px]">
+            <span>LEARN MORE</span>
+        </div>
+      </div>
+      <div class="desktop:block laptop:block bigtablet:block tablet:block bigmobile:hidden moblie:hidden bg-1dark hover:bg-2dark hoversett cursor-pointer rounded-[5px] group relative flex flex-col flex-nowrap" >
+        <img class="rounded-tl-[5px] rounded-tr-[5px] w-full h-[165px]object-cover" src="./images/box-19.avif" alt="">
+        <div class="card">
+            <div class="flex gap-[3px] items-center">
+                <img class="w-[28px] h-[24px]" src="./images/wrumble.svg" alt="">
+                <p class="text-[14px] text-empty font-[objectsans] ">Warcraft Rumble</p>
+            </div>
+            <h3 class="text-[18px] font-[objectsans]">Coin Packs</h3>
+            <p class="text-[#ffb400] text-[14px]">Use Coins to purchase Minis, Tomes of Experience, Talents, and more!</p>
+            <p class="text-empty text-[12px]">In-Game Content</p>
+        </div>
+        <div class="absolute bottom-[24px] left-[24px]">
+            <span>EUR 0.99</span>
+        </div>
+        <div class="px-[8px] py-[6px] flex rounded-[4px] bg-[#dd0000] absolute bottom-[92%] left-[7px]">
+            <p class="font-[objectsans] text-[white] text-[12px] leading-[12px]">NEW</p>
+          </div>
+      </div>
+      <div class="desktop:block laptop:block bigtablet:hidden tablet:block bigmobile:hidden moblie:hidden bg-1dark hover:bg-2dark hoversett cursor-pointer rounded-[5px] group relative flex flex-col flex-nowrap" >
+        <img class="rounded-tl-[5px] rounded-tr-[5px] w-full h-[165px]object-cover" src="./images/box-9.avif" alt="">
+        <div class="card">
+            <div class="flex gap-[3px] items-center">
+                <img class="w-[28px] h-[24px]" src="./images/mwII.svg" alt="">
+                <p class="text-[14px] text-empty font-[objectsans] ">Call of Duty: Modern Warfare II</p>
+            </div>
+            <dt class="text-[18px] font-[objectsans]">Call of Duty®: Modern Warfare® II</dt>
+            <p class="text-[#ffb400] text-[14px]">Play Warzone™ for free now.</p>
+            <p class="text-empty text-[12px]">Action Shooter</p>
+        </div>
+        <div class="absolute bottom-[24px] left-[24px]">
+            <span>EUR 69.99</span>
+        </div>
+      </div>
+      <div class=" desktop:block laptop:block bigtablet:hidden tablet:hidden bigmobile:hidden moblie:hidden bg-1dark hover:bg-2dark hoversett cursor-pointer rounded-[5px] group relative flex flex-col flex-nowrap" >
+        <img class="rounded-tl-[5px] rounded-tr-[5px] w-full h-[165px]object-cover" src="./images/box-10.avif" alt="">
+        <div class="card">
+            <div class="flex gap-[3px] items-center">
+                <img class="w-[28px] h-[24px]" src="./images/wow.svg" alt="">
+                <p class="text-[14px] text-empty font-[objectsans] ">WORLD OF WARCRAFT</p>
+            </div>
+            <dt class="text-[18px] font-[objectsans]">World of Warcraft®: Dragonflight</dt>
+            <!-- <p class="text-[#ffb400] text-[14px]"></p> -->
+            <p class="text-empty text-[12px]">Massively Multiplayer RPG</p>
+        </div>
+        <div class="absolute bottom-[24px] left-[24px]">
+            <span>From EUR 49.99</span>
+        </div>
+      </div>
+
+    </div>
+    </div>
+    <!--end fourth box-->
+    <div class="boxcard mt-[65px] mb-[100px]">
+        <h2 class="desktop:w-10/12 laptop:w-[97%] tablet:w-[97%] moblie:w-[97%] block mx-auto mb-[20px] noto resanim">  Trending Now  </h2>
+    <div
+      class="noto desktop:w-10/12 laptop:w-[97%] tablet:w-[97%] moblie:w-[97%] h-auto mx-auto grid desktop:grid-cols-5 laptop:grid-cols-5 bigtablet:grid-cols-4 tablet:grid-cols-3 bigmobile:grid-cols-3 moblie:grid-cols-2 justify-items-center gap-[20px] resanim">
+
+      <div class="bg-1dark hover:bg-2dark hoversett cursor-pointer rounded-[5px] group relative flex flex-col flex-nowrap" >
+        <img class="rounded-tl-[5px] rounded-tr-[5px] w-full h-[165px]object-cover" src="./images/box-11.avif" alt="">
+        <div class="card">
+            <div class="flex gap-[3px] items-center">
+                <img class="w-[28px] h-[24px]" src="./images/wow.svg" alt="">
+                <p class="text-[14px] text-empty font-[objectsans] ">World of Warcraft</p>
+            </div>
+            <dt class="text-[18px] font-[objectsans]">World of Warcraft®: The War Within™</dt>
+            <p class="text-[#ffb400] text-[14px]">Includes the critically-acclaimed Dragonflight expansion.</p>
+            <p class="text-empty text-[12px]">Massively Multiplayer RPG</p>
+        </div>
+        <div class="absolute bottom-[24px] left-[24px]">
+            <span>From EUR 49.99</span>
+        </div>
+        <div class="px-[8px] py-[6px] flex rounded-[4px] bg-[#dd0000] absolute bottom-[92%] left-[7px]">
+            <p class="font-[objectsans] text-[white] text-[12px] leading-[12px]">NEW</p>
+          </div>
+      </div>
+      <div class="bg-1dark hover:bg-2dark hoversett cursor-pointer rounded-[5px] group relative flex flex-col flex-nowrap" >
+        <img class="rounded-tl-[5px] rounded-tr-[5px] w-full h-[165px]object-cover" src="./images/box-20.avif" alt="">
+        <div class="card">
+            <div class="flex gap-[3px] items-center">
+                <img class="w-[28px] h-[24px]" src="./images/wow.svg" alt="">
+                <p class="text-[14px] text-empty font-[objectsans] ">World of Warcraft</p>
+            </div>
+            <dt class="text-[18px] font-[objectsans]">World of Warcraft®: Special Subscription Offer</dt>
+            <p class="text-[#ffb400] text-[14px]">Includes access to World of Warcraft, Wrath of the Lich King Classic, and Classic Hardcore Realms!</p>
+            <p class="text-empty text-[12px]">Subscriptions</p>
+        </div>
+        <div class="absolute bottom-[24px] left-[24px]">
+            <span>LEARN MORE</span>
+        </div>
+      </div>
+      <div class="bg-1dark hover:bg-2dark hoversett cursor-pointer rounded-[5px] group relative flex flex-col flex-nowrap" >
+        <img class="rounded-tl-[5px] rounded-tr-[5px] w-full h-[165px]object-cover" src="./images/box-21.avif" alt="">
+        <div class="card">
+            <div class="flex gap-[3px] items-center">
+                <img class="w-[28px] h-[24px]" src="./images/wowl.svg" alt="">
+                <p class="text-[14px] text-empty font-[objectsans] ">WORLD OF WARCRAFT CLASSIC</p>
+            </div>
+            <dt class="text-[18px] font-[objectsans]">Northrend Heroic Upgrade</dt>
+            <p class="text-[#ffb400] text-[14px]">Wrath of the Lich King Classic IS INCLUDED with your WoW Subscription.</p>
+            <p class="text-empty text-[12px]">Game Upgrades</p>
+        </div>
+        <div class="absolute bottom-[24px] left-[24px]">
+            <span>EUR 49.99</span>
+        </div>
+      </div>
+      <div class="bg-1dark hover:bg-2dark hoversett cursor-pointer rounded-[5px] group relative flex flex-col flex-nowrap" >
+        <img class="rounded-tl-[5px] rounded-tr-[5px] w-full h-[165px]object-cover" src="./images/box-12.avif" alt="">
+        <div class="card">
+            <div class="flex gap-[3px] items-center">
+                <img class="w-[28px] h-[24px]" src="./images/wowc.svg" alt="">
+                <p class="text-[14px] text-empty font-[objectsans] ">World of Warcraft Classic Cataclysm</p>
+            </div>
+            <dt class="text-[18px] font-[objectsans]">Blazing Epic Upgrade</dt>
+            <p class="text-[#ffb400] text-[14px]">Get a Ragnaros-inspired mount and Lil’ Wrathion pet in both WoW and WoW Classic progression realms!</p>
+            <p class="text-empty text-[12px]">Game Upgrades</p>
+        </div>
+        <div class="absolute bottom-[24px] left-[24px]">
+            <span>EUR 79.99</span>
+        </div>
+        <div class="px-[8px] py-[6px] flex rounded-[4px] bg-[#dd0000] absolute bottom-[92%] left-[7px]">
+            <p class="font-[objectsans] text-[white] text-[12px] leading-[12px]">NEW</p>
+          </div>
+      </div>
+      <div class="bg-1dark hover:bg-2dark hoversett cursor-pointer rounded-[5px] group relative flex flex-col flex-nowrap" >
+        <img class="rounded-tl-[5px] rounded-tr-[5px] w-full h-[165px]object-cover" src="./images/box-1.avif" alt="">
+        <div class="card">
+            <div class="flex gap-[3px] items-center">
+                <img class="w-[28px] h-[24px]" src="./images/diablo4.svg" alt="">
+                <p class="text-[14px] text-empty font-[objectsans] ">Diablo IV</p>
+            </div>
+            <dt class="text-[18px] font-[objectsans]">Diablo® IV: Ultimate Edition</dt>
+            <p class="text-[#ffb400] text-[14px]">Season of Blood now live.</p>
+            <p class="text-empty text-[12px]">Action RPG</p>
+        </div>
+        <div class="absolute bottom-[24px] left-[24px]">
+            <span>EUR 99.99</span>
+        </div>
+      </div>
+      <div class=" bg-1dark hover:bg-2dark hoversett cursor-pointer rounded-[5px] group relative flex flex-col flex-nowrap" >
+        <img class="rounded-tl-[5px] rounded-tr-[5px] w-full h-[165px]object-cover" src="./images/box-23.avif" alt="">
+        <div class="card">
+            <div class="flex gap-[3px] items-center">
+                <img class="w-[28px] h-[24px]" src="./images/overwatch.svg" alt="">
+                <p class="text-[14px] text-empty font-[objectsans] ">   </p>
+            </div>
+            <dt class="text-[18px] font-[objectsans]">Overwatch 2</dt>
+            <p class="text-[#ffb400] text-[14px]">Overwatch® 2 Premium Battle Pass: Season Seven</p>
+            <p class="text-empty text-[12px]">Team-Based Action Game</p>
+        </div>
+        <div class="absolute bottom-[24px] left-[24px]">
+            <span>Learn More</span>
+        </div>
+        <div class="px-[8px] py-[6px] flex rounded-[4px] bg-[#dd0000] absolute bottom-[92%] left-[7px]">
+            <p class="font-[objectsans] text-[white] text-[12px] leading-[12px]">NEW</p>
+          </div>
+      </div>
+      <div class="desktop:block laptop:block bigtablet:block tablet:block bigmobile:hidden moblie:hidden bg-1dark hover:bg-2dark hoversett cursor-pointer rounded-[5px] group relative flex flex-col flex-nowrap" >
+        <img class="rounded-tl-[5px] rounded-tr-[5px] w-full h-[165px]object-cover" src="./images/box-16.avif" alt="">
+        <div class="card">
+            <div class="flex gap-[3px] items-center">
+                <img class="w-[28px] h-[24px]" src="./images/battle-logo.svg    " alt="">
+                <p class="text-[14px] text-empty font-[objectsans] ">Battle.net Services</p>
+            </div>
+            <dt class="text-[18px] font-[objectsans]">Battle.net® Balance</dt>
+            <!-- <p class="text-[#ffb400] text-[14px]"></p> -->
+            <p class="text-empty text-[12px]">Game Services</p>
+        </div>
+        <div class="absolute bottom-[24px] left-[24px]">
+            <span>LEARN MORE</span>
+        </div>
+      </div>
+      <div class="desktop:block laptop:block bigtablet:block tablet:block bigmobile:hidden moblie:hidden bg-1dark hover:bg-2dark hoversett cursor-pointer rounded-[5px] group relative flex flex-col flex-nowrap" >
+        <img class="rounded-tl-[5px] rounded-tr-[5px] w-full h-[165px]object-cover" src="./images/box-19.avif" alt="">
+        <div class="card">
+            <div class="flex gap-[3px] items-center">
+                <img class="w-[28px] h-[24px]" src="./images/wrumble.svg" alt="">
+                <p class="text-[14px] text-empty font-[objectsans] ">Warcraft Rumble</p>
+            </div>
+            <h3 class="text-[18px] font-[objectsans]">Coin Packs</h3>
+            <p class="text-[#ffb400] text-[14px]">Use Coins to purchase Minis, Tomes of Experience, Talents, and more!</p>
+            <p class="text-empty text-[12px]">In-Game Content</p>
+        </div>
+        <div class="absolute bottom-[24px] left-[24px]">
+            <span>EUR 0.99</span>
+        </div>
+        <div class="px-[8px] py-[6px] flex rounded-[4px] bg-[#dd0000] absolute bottom-[92%] left-[7px]">
+            <p class="font-[objectsans] text-[white] text-[12px] leading-[12px]">NEW</p>
+          </div>
+      </div>
+      <div class="desktop:block laptop:block bigtablet:hidden tablet:block bigmobile:hidden moblie:hidden bg-1dark hover:bg-2dark hoversett cursor-pointer rounded-[5px] group relative flex flex-col flex-nowrap" >
+        <img class="rounded-tl-[5px] rounded-tr-[5px] w-full h-[165px]object-cover" src="./images/box-15.avif" alt="">
+        <div class="card">
+            <div class="flex gap-[3px] items-center">
+                <img class="w-[28px] h-[24px]" src="./images/overwatch.svg" alt="">
+                <p class="text-[14px] text-empty font-[objectsans] ">Overwatch 2</p>
+            </div>
+            <dt class="text-[18px] font-[objectsans]">Overwatch® 2 – 10,000 (+5,000 Bonus) Overwatch Coins</dt>
+            <p class="text-[#ffb400] text-[14px]">Limited one-time purchase promotion through December 4!</p>
+            <p class="text-empty text-[12px]">Coins and Tokens</p>
+        </div>
+        <div class="absolute bottom-[24px] left-[24px]">
+            <span>EUR 99.99</span>
+        </div>
+        <div class="px-[8px] py-[6px] flex rounded-[4px] bg-[#6CDB00] absolute bottom-[92%] left-[7px]">
+            <p class="font-[objectsans] text-[#2b2b2b] text-[12px] leading-[12px]">GREAT DEAL</p>
+          </div>
+      </div>
+      <div class=" desktop:block laptop:block bigtablet:hidden tablet:hidden bigmobile:hidden moblie:hidden bg-1dark hover:bg-2dark hoversett cursor-pointer rounded-[5px] group relative flex flex-col flex-nowrap" >
+        <img class="rounded-tl-[5px] rounded-tr-[5px] w-full h-[165px]object-cover" src="./images/box-18.avif" alt="">
+        <div class="card">
+            <div class="flex gap-[3px] items-center">
+                <img class="w-[28px] h-[24px]" src="./images/hs.svg" alt="">
+                <p class="text-[14px] text-empty font-[objectsans] ">Hearthstone</p>
+            </div>
+            <dt class="text-[18px] font-[objectsans]">Showdown in the Badlands Tavern Pass</dt>
+            <p class="text-[#ffb400] text-[14px]">Available through March 11, 2024</p>
+            <p class="text-empty text-[12px]">Card Packs</p>
+        </div>
+        <div class="absolute bottom-[24px] left-[24px]">
+            <span>From EUR 19.99</span>
+        </div>
+        <div class="px-[8px] py-[6px] flex rounded-[4px] bg-[#dd0000] absolute bottom-[92%] left-[7px]">
+            <p class="font-[objectsans] text-[white] text-[12px] leading-[12px]">NEW</p>
+          </div>
+      </div>
+
+    </div>
+    </div>
+    <!--start fifth-->
+
+    <!--end fifth-->
+    
+
+    <!--start prefooter-->
+    <div class="my-[100px]">
+        <div class="max-w-[2520px] h-[550px] m-[auto] border-solid border-l-0 border-r-0 border-t-[1px] border-b-[1px] border-[#3c3f44] bg-cover bg-center flex  justify-center items-center" style="background-image: url(./images/prefooter-1.avif);">
+            <div class="flex gap-[40px] moblie:gap-[20px] items-center desktop:flex-row laptop:flex-row tablet:flex-row moblie:flex-col">
+                <img class="w-auto desktop:h-[400px] laptop:h-[350px] bigtablet:h-[300px] tablet:h-[190px] moblie:h-[150px] object-cover resanim" src="./images/prefooter-2.avif" alt="">
+                <div>
+                    <div class="resanim">
+                        <h3 class="font-[objectsans] text-[42px] text-center">Dive into adventure</h3>
+                        <p class="noto text-[18px] text-empty mt-[20px]">Download Battle.net and join a community of millions.</p>
+                        <div class="mt-[30px] flex gap-[20px] flex-wrap moblie:justify-center">
+                            <div class="w-[360px] h-[72px] cursor-pointer rounded-[5px] font-[objectsans] text-center leading-[72px] text-[20px]  bg-[#0074E0] hover:bg-[#47A6FF]">
+                                <p>Downlaod For Windows</p>
+                            </div>
+                            <div class="w-[200px] h-[72px] cursor-pointer rounded-[5px] font-[objectsans] text-center leading-[72px] text-[20px] bg-1dark hover:bg-2dark">Learn More</div>
+                        </div>
+                        <div class="noto text-[16px] mt-[30px] text-empty moblie:text-center">
+                            <p>Also available for Mac and mobile</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end prefooter-->
+
+    <!--start footer-->
+    <div class="footer h-[570px] w-full flex justify-center overflow-hidden font-[blizz]">
+        <div class="footerbox w-full h-full px-[16px] py-[64px] mx-[140px] flex flex-col gap-[30px]">
+            <div class="flex items-center gap-[5px] cursor-pointer mx-auto">
+                <img class="w-[24px] h-[24px]" src="./images/earth.png" alt="">
+                <p class=" text-[16px]">English (US)</p>
+            </div>
+            <div class="mx-auto">
+                <svg class="fill-white w-[325px] h-[54px]" id="#slogo4" viewBox="0 0 196 32"></svg>
+            </div>
+            <div class="font-[blizz] text-[16px] flex gap-[15px] mx-auto text-empty">
+                <span class="borderright hover:text-white cursor-pointer">CAREERS</span>
+                <span class="borderright hover:text-white cursor-pointer">ABOUT</span>
+                <span class="borderright hover:text-white cursor-pointer">SUPPORT</span>
+                <span class="borderright hover:text-white cursor-pointer">CONTACT US</span>
+                <span class="borderright hover:text-white cursor-pointer">PRESS</span>
+                <span class="hover:text-white cursor-pointer">API</span>
+            </div>
+            <div class="mx-auto flex gap-[20px]">
+                <div>
+                    <svg class="w-[36px] h-[36px] fill-empty hover:fill-white cursor-pointer"viewBox="0 0 48 48" id="#facebook"></svg>
+                </div>
+                <div>
+                    <svg class="w-[36px] h-[36px] fill-empty hover:fill-white cursor-pointer"viewBox="0 0 48 48" id="#instagram"></svg>
+                </div>
+                <div>
+                    <svg class="w-[36px] h-[36px] fill-empty hover:fill-white cursor-pointer"viewBox="0 0 48 48" id="#x"></svg>
+                </div>
+            </div>
+            <div class="flex mx-auto gap-[5px] text-[16px]">
+                <span class=" text-empty">All games, one app:</span>
+                <img src="./images/battle-logo.svg" alt="">
+                <a class="text-[#148eff]" href="">Battle.net Desktop App</a>
+            </div>
+            <div class="mx-auto text-[12px] text-empty text-center">
+                <p>©2023 Blizzard Entertainment, Inc.</p>
+                <span>all <a class="text-white" href="">trademarks</a> referenced herein are the properties of their respective owners.</span>
+            </div>
+            <div class="font-[blizz] text-[12px] flex gap-[10px] mx-auto text-empty">
+                <span class="borderright hover:text-white cursor-pointer">PRIVACY</span>
+                <span class="borderright hover:text-white cursor-pointer">LEGAL</span>
+                <span class="borderright hover:text-white cursor-pointer">TERMS</span>
+                <span class="borderright hover:text-white cursor-pointer">COOKIE POLICY</span>
+                <span class="borderright hover:text-white cursor-pointer">COOKIE SETTINGS</span>
+                <span class="hover:text-white cursor-pointer">API</span>
+            </div>
+        </div>
+    </div>
+    <!--end footer-->
+
+    <!--scripts-->
+    <script type="module" src="./svg.js"></script>
+    <script src="./swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper1", {
+          slidesPerView: 1,
+          spaceBetween: 30,
+          loop: true,
+          pagination: {
+            el: ".swiper-pagination1",
+            clickable: true,
+          },
+          autoplay: {
+        delay: 3500,
+        disableOnInteraction: false,
+      },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      </script>
+    <script>
+        var menu = ["Diablo IV 25% Off", "Free Trial", "Modern Warfare® III - Vault Edition"];
+        var swiper = new Swiper(".mySwiper2", {
+          slidesPerView: 1,
+          spaceBetween: 30,
+          loop: true,
+          pagination: {
+            el: ".swiper-pagination2",
+            clickable: true,
+            renderBullet: function (index, className) {
+			return '<span class="' + className + '">' + menu[index] + "</span>";
+		}
+          },
+          autoplay: {
+        delay: 3500,
+        disableOnInteraction: false,
+      },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      </script>
+      <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+        
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+              panel.style.display = "none";
+            } else {
+              panel.style.display = "block";
+            }
+          });
+        }
+        </script>
+</body> 
+</html>

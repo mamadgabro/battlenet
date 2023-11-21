@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1080" height="1080" viewBox="0 0 1080 1080" xml:space="preserve">
+<desc>Created with Fabric.js 5.2.4</desc>
+<defs>
+</defs>
+<rect x="0" y="0" width="100%" height="100%" fill="transparent"></rect>
+<g transform="matrix(1 0 0 1 540 540)" id="6644c123-d97d-4fbd-9522-d7dee0530633"  >
+</g>
+<g transform="matrix(1 0 0 1 540 540)" id="e970de2f-5a1b-4ae3-a2fa-2df6885bc2d5"  >
+<rect style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1; visibility: hidden;" vector-effect="non-scaling-stroke"  x="-540" y="-540" rx="0" ry="0" width="1080" height="1080" />
+</g>
+<g transform="matrix(45 0 0 45 540 540)"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-12, -12)" d="M 2 2 L 4 2 L 4 18 L 2 18 L 2 2 Z M 5 22 L 5 20 L 3 20 L 3 22 L 5 22 Z M 9 20 L 7 20 L 7 22 L 9 22 L 9 20 Z M 11 20 L 16 20 L 16 22 L 11 22 L 11 20 Z M 21 20 L 18 20 L 18 22 L 21 22 L 21 20 Z M 22 2 L 19 2 L 19 18 L 22 18 L 22 2 Z M 16 2 L 17 2 L 17 18 L 16 18 L 16 2 Z M 14 2 L 12 2 L 12 18 L 14 18 L 14 2 Z M 6 2 L 10 2 L 10 18 L 6 18 L 6 2 Z" stroke-linecap="round" />
+</g>
+</svg>
